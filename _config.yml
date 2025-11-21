@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Paguiel NGANJI"
   pronouns         : # example: "He/him"  
-  bio              : "Electrical Engineering and Industrial Computing"
+  bio              : "Electrical and Industrial Computing"
   location         : "Toulouse "
   employer         : "University of Toulouse"
   uri              : # URL
@@ -38,7 +38,7 @@ author:
   googlescholar    : # "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : # "https://orcid.org/yourorcidurl"
   semantic         : # URL
   pubmed           : # Username
   researchgate     : # URL
