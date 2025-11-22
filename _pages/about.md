@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "A logbook on my journey to becoming an Embedded Systems Engineer"
+title: "A logbook on my work"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hello and welcome. I am [Paguiel Nganji](https://github.com/paguielng), a student passionate about electronics, robotics, and aerospace, currently pursuing a degree in **Electrical Engineering and Industrial Computing (BUT GEII)**. 
+Hello and welcome. I am [Paguiel Nganji](https://github.com/paguielng), a student passionate about electronics, robotics, and aerospace, currently pursuing a degree in **Electrical Engineering and Industrial Computing**, and I specialize in automation, electronics, and embedded systems. 
 
  This website is more than just a resume. It is a reflection of my journey and my ambition: to become an engineer. Here, you will find not only my academic background but, more importantly, the practical application of my knowledge through hands-on projects I build in my personal time.
 
