@@ -41,6 +41,12 @@ Skills
         <li>
             <i class="fas fa-code"></i>
             <span>C / C++</span>
+            <!-- Sous-compétences pour C/C++ -->
+            <ul class="sub-skills">
+                <li>Object-Oriented Programming (OOP)</li>
+                <li>Memory Management (Pointers)</li>
+                <li>Low-Level Programming (Hardware)</li>
+            </ul>
         </li>
 
         <!-- Compétence Principale 2 -->
@@ -70,7 +76,9 @@ Skills
             <span>Python</span>
             <!-- Sous-compétences pour Python -->
             <ul class="sub-skills">
-                <li>Data analysis (Matplotlib, NumPy)</li>
+                <li>Scripting & Automation</li>
+                <li>Data Analysis (Matplotlib, NumPy)</li>
+                <li>Serial Communication with Microcontrollers</li>
             </ul>
         </li>
     </ul>
