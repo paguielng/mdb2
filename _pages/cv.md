@@ -107,23 +107,16 @@ Skills
         padding-left: 45px;
     }
 
+    /* LES MODIFICATIONS SONT ICI */
     .sub-skills li {
         font-size: 0.9rem;
         font-weight: 400;
-        margin-bottom: 0.3rem;
-        position: relative;
-        padding-left: 20px;
+        margin-bottom: 0.15rem;  /* Espace vertical encore plus réduit */
+        /* J'ai enlevé 'position: relative' et 'padding-left' qui n'étaient utiles que pour la puce */
     }
 
-    /* LA MODIFICATION EST ICI */
-    .sub-skills li::before {
-        content: '○';
-        position: absolute;
-        left: 0;
-        top: 1px; /* Ajustement pour un meilleur alignement vertical */
-        color: #555;
-        font-size: 0.8rem; /* Réduit la taille du caractère 'cercle' */
-    }
+    /* J'ai supprimé toute la règle '.sub-skills li::before' pour enlever les cercles */
+
 </style>
 
 
