@@ -41,84 +41,94 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
-<section id="skills" class="container">
-    <!-- Nous n'utilisons plus "skills-grid" mais une nouvelle classe "skills-list-container" -->
-    <div class="skills-list-container">
+<!-- NOUVEAU conteneur pour tout décaler -->
+<div class="skills-wrapper">
 
-        <!-- Compétence Principale (anciennement skill-card) -->
-        <div class="skill-item">
-            <i class="fas fa-code"></i> C / C++
-        </div>
+    <ul class="skills-list">
+        <!-- Compétence Principale 1 -->
+        <li>
+            <i class="fas fa-code"></i>
+            <span>C / C++</span>
+        </li>
 
-        <!-- Compétence Principale avec sous-compétences -->
-        <div class="skill-item">
-            <i class="fas fa-microchip"></i> Électronique & Hardware
-            <!-- La sous-liste est maintenant à l'intérieur du skill-item -->
-            <div class="sub-skill-list">
-                <div class="sub-skill-item">Arduino / ESP32</div>
-                <div class="sub-skill-item">Électronique Analogique & Numérique</div>
-                <div class="sub-skill-item">Analyse de signaux (Oscilloscope)</div>
-            </div>
-        </div>
+        <!-- Compétence Principale 2 -->
+        <li>
+            <i class="fas fa-microchip"></i>
+            <span>Électronique & Hardware</span>
+            <!-- Liste des sous-compétences -->
+            <ul class="sub-skills">
+                <li>Arduino / ESP32</li>
+                <li>Analyse de signaux (Oscilloscope)</li>
+                <li>Conception de schémas & PCB</li>
+            </ul>
+        </li>
 
-        <!-- Autre compétence principale -->
-        <div class="skill-item">
-            <i class="fas fa-cogs"></i> Automatisme & Robotique
-        </div>
+        <!-- Compétence Principale 3 -->
+        <li>
+            <i class="fas fa-robot"></i>
+            <span>Robotique & Automatisme</span>
+            <!-- Liste des sous-compétences -->
+            <ul class="sub-skills">
+                <li>Contrôle de moteurs & servomoteurs</li>
+                <li>Capteurs (IMU, Ultrasons)</li>
+            </ul>
+        </li>
         
-        <!-- Autre compétence principale -->
-        <div class="skill-item">
-            <i class="fab fa-python"></i> Python (Notions)
-        </div>
+        <!-- Compétence Principale 4 -->
+        <li>
+            <i class="fab fa-python"></i>
+            <span>Python</span>
+        </li>
+    </ul>
 
-    </div>
-</section>
+</div> <!-- Fin du nouveau conteneur -->
 
-<!-- Le CSS adapté à partir de vos styles -->
+
+<!-- Le CSS pour styliser la liste -->
 <style>
-    /* On abandonne la grille pour un affichage simple */
-    .skills-list-container {
-        /* Pas de 'display: grid' ici. Les divs s'afficheront les uns sous les autres par défaut. */
+    /* NOUVELLE règle pour créer la tabulation */
+    .skills-wrapper {
+        padding-left: 40px; /* C'est cette ligne qui décale tout vers la droite. Ajustez la valeur si besoin. */
     }
 
-    /* Style pour les compétences principales (votre ancien .skill-card) */
-    .skill-item {
-        /* On enlève le fond, la bordure, etc. pour un look de liste */
+    /* Le reste du CSS reste identique */
+    .skills-list, .sub-skills {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    .skills-list > li {
         font-size: 1.2rem;
         font-weight: 600;
-        margin-bottom: 1rem; /* Espace entre les compétences principales */
-        display: flex; /* Aligne l'icône et le texte */
+        margin-bottom: 1rem;
+        display: flex;
         align-items: center;
-        flex-wrap: wrap; /* Permet à la sous-liste de passer à la ligne */
+        flex-wrap: wrap;
     }
 
-    /* Style pour les icônes (votre ancien .skill-card i) */
-    .skill-item > i {
-        /* On ne veut plus que l'icône soit un bloc au-dessus du texte */
-        font-size: 1rem; /* Plus petit, comme une puce */
-        color: #333; /* Couleur sobre, à adapter */
-        margin-right: 0.75rem; /* Espace entre l'icône et le texte */
+    .skills-list > li > i {
+        font-size: 1rem;
+        color: #333;
+        margin-right: 0.75rem;
         width: 20px;
         text-align: center;
     }
 
-    /* NOUVEAUX STYLES pour la hiérarchie */
-    .sub-skill-list {
-        width: 100%; /* La sous-liste prend toute la largeur */
-        padding-left: 45px; /* INDENTATION pour aligner avec le texte principal */
-        margin-top: 0.75rem;
+    .sub-skills {
+        width: 100%;
+        margin-top: 0.5rem;
+        padding-left: 45px;
     }
 
-    .sub-skill-item {
+    .sub-skills li {
         font-size: 1rem;
-        font-weight: 400; /* Police plus légère pour les sous-compétences */
+        font-weight: 400;
         margin-bottom: 0.5rem;
         position: relative;
-        padding-left: 20px; /* Espace pour la puce personnalisée */
+        padding-left: 20px;
     }
 
-    /* Crée la puce "cercle vide" comme sur votre image */
-    .sub-skill-item::before {
+    .sub-skills li::before {
         content: '○';
         position: absolute;
         left: 0;
@@ -126,7 +136,6 @@ Skills
         color: #555;
     }
 </style>
-
     
 
 Publications
