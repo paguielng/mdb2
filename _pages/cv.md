@@ -41,7 +41,7 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
-
+    <section id="skills" class="container">
         <div class="skills-grid">
             <div class="skill-card"><i class="fas fa-code"></i> C / C++</div>
             <div class="skill-card"><i class="fas fa-microchip"></i> Arduino / ESP32</div>
