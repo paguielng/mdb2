@@ -13,10 +13,6 @@ I am [Paguiel Nganji](https://www.linkedin.com/in/paguiel-nganji/), a student pa
 
 A resource-driven personal work
 ======
-I believe that the best way to learn is by doing. While my academic studies in Electrical Engineering and Industrial Computing provide me with a strong theoretical foundation, my personal projects are where I truly bring these concepts to life. This hands-on approach allows me to face real-world challenges, debug complex problems, and develop a deep, practical understanding of electronic systems. This portfolio is a living document of that process, showcasing not just the final result, but the journey of learning and iteration behind each creation.
-
-My passion extends beyond simple electronics; I am deeply fascinated by the intersection of [hardware and software](https://en.wikipedia.org/wiki/Computer_hardware), especially in high-stakes environments like aerospace. I am driven by the challenge of building systems that are not only functional but also reliable and efficient. Whether it's designing a circuit board, writing firmware for a [microcontroller](https://en.wikipedia.org/wiki/Microcontroller), or developing control logic for a robot, I am committed to precision and quality. I see every line of code and every solder joint as a step toward building the robust technologies of the future. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/paguieng/Myportfolio.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://Myportfolio.github.io/talkmap.html).
-
 To do this, I continuously explore tools and methods that are standard in the industry. I use some popular tools:
 - [C/C++](https://isocpp.org/) for performance-critical embedded applications.
 - [KiCad](https://www.kicad.org/) for schematizing electronic circuit
