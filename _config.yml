@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Le Garage du Maker"
+title                    : "Le Garage Maker"
 title_separator          : "-"
 name                     : &name "Paguiel NGANJI"
 description              : &description "I build stuff... sometimes in the right order."   # Update this with a general description of your site, this is the default if not overridden by a page
