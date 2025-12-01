@@ -7,9 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-I am [Paguiel Nganji](https://www.linkedin.com/in/paguiel-nganji/), a student passionate about electronics, robotics, and aerospace, currently pursuing a degree in **Electrical Engineering and Industrial Computing**, and I specialize in automation, electronics, and embedded systems. This website is more than just a resume. It is a reflection of my journey and my ambition: to become an engineer. Here, you will find not only my academic background but, more importantly, the practical application of my knowledge through hands-on projects I build in my personal time.
+I am [Paguiel Nganji](https://www.linkedin.com/in/paguiel-nganji/), I am actualy studing **Electrical Engineering and Industrial Computing**,  and I am passionate about engineering in general and aerospace in particular. I specialize in automation, electronics, embedded systems, and hyperfrequency.
 
-  You will find some of my projects on my [Github profile](https://github.com/paguielng), such as rocket development projects, hardware gadgets, and more. Each project is a step in my journey to master embedded systems and solve real-world engineering challenges.
+  This page presents my academic background and some personal projects. It is a way for me to put my knowledge into practice and share my progress.
+  There are examples of my work on my [Github profile](https://github.com/paguielng), such as rocket projects and small electronic gadgets. Each project is an opportunity to learn and improve my skills in solving technical challenges.
 
 A resource-driven personal work
 ======
