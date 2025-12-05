@@ -4,7 +4,7 @@ excerpt: >
   Freenove Robot Dog Kit for Raspberry Pi
 
   <div style="text-align:center;">
-    <img src="https://github.com/paguielng/FNK0050/blob/main/raspiPi-hardware/code-micro-robot/Picture/icon.png?raw=true" width="225">
+    <img src="/images/500x300.png" width="225">
   </div>
 collection: portfolio
 ---
