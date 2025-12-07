@@ -1,15 +1,30 @@
+/* Taille générale du texte */
 .page__content {
   font-size: 0.9rem;
+  line-height: 1.5;
 }
 
+/* Titres plus petits */
 .page__content h1 {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
 }
-
 .page__content h2 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+}
+.page__content h3 {
+  font-size: 1.2rem;
+}
+.page__content h4 {
+  font-size: 1.05rem;
 }
 
-.page__content h3 {
-  font-size: 1.15rem;
+/* Paragraphes plus compacts */
+.page__content p {
+  margin-bottom: 0.7rem;
+}
+
+/* Listes plus compactes */
+.page__content ul,
+.page__content ol {
+  font-size: 0.9rem;
 }
