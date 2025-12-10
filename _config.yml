@@ -13,7 +13,7 @@ title                    : "Le Garage Maker"
 title_separator          : "-"
 name                     : &name "Paguiel NGANJI"
 description              : &description "I build stuff... sometimes in the right order."   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://paguielng.github.io/GarageMaker # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://paguielng.github.io/MD2WB # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "paguielng.github.io/MD2WB/"
