@@ -1,12 +1,7 @@
 ---
-title: "FNK0050"
-excerpt: >
-  Freenove Robot Dog Kit for Raspberry Pi
-
-  <div style="text-align:left;">
-    <img src="/images/500x300.png">
-  </div>
+title: "Portfolio item number 1"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
-Freenove is an open-source electronics platform, committed to help customer quickly realize the creative idea and product prototypes, making it easy to get started for enthusiasts of programing and electronics and launching innovative open source products. 
+This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
