@@ -7,22 +7,22 @@ redirect_from:
   - /about.html
 ---
 
-I am [Paguiel Nganji](https://www.linkedin.com/in/paguiel-nganji/), I am actualy studing **Electrical Engineering and Industrial Computing**,  and I am passionate about engineering in general and aerospace in particular. I specialize in electronics, embedded computing, and hyperfrequency.
+Je suis [Paguiel Nganji](https://www.linkedin.com/in/paguiel-nganji/), Je suis actuellement étudiant en **génie électrique et informatique industrielle**,  et je suis passionné par le fonctionnement des système. Je me spécialise dans l'électronique et l'informatique embarquée.
 
-  This page presents my academic background and some personal projects. It is a way for me to put my knowledge into practice and share my progress.
+ Cette page présente mes travaux académiques universitaire et des projets personnels.
   
-  There are examples of my work on my [Github profile](https://github.com/paguielng), such as rocket projects and small electronic gadgets. Each project is an opportunity to learn and improve my skills in solving technical challenges.
+  Vous trouverez des exemples de mon travail sur mon [profil Github](https://github.com/paguielng), tels que des projets experimentaux et de petits gadgets électroniques. Chaque projet est l'occasion d'apprendre une nouvelle façon de réfléchir et de faire les choses.
 
-A resource-driven personal work
+Mes outils et ressources
 ======
-To do this, I continuously explore tools and methods that are standard in the industry. I use some popular tools:
-- [C/C++](https://isocpp.org/) for performance-critical embedded applications.
-- [KiCad](https://www.kicad.org/) for schematizing electronic circuit
-- [Git/GitHub](https://github.com/paguielng/) for managing my projects
-- [Wokwi](https://wokwi.com/) for online ESP32 simulator
-- [MatLab](https://www.mathworks.com/products/matlab.html/) for computing simulations
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Fusion360](https://www.autodesk.com/fr/products/fusion-360/overview/) for CAO software modeler
+Dans mon travail, j'ai l'habitude d'utiliser certains outils populaires :
+- [C/C++](https://isocpp.org/) pour les applications embarquées où les performances sont cruciales.
+- [KiCad](https://www.kicad.org/) pour schématiser les circuits électroniques
+- [Git/GitHub](https://github.com/paguielng/) pour gérer mes projets
+- [Wokwi](https://wokwi.com/) pour le simulateur ESP32 en ligne
+- [MatLab](https://www.mathworks.com/products/matlab.html/) pour les simulations informatiques
+- [MathJax](https://www.mathjax.org/) pour les équations mathématiques
+- [Fusion360](https://www.autodesk.com/fr/products/fusion-360/overview/) pour la modélisation CAO
 
 Getting started
 ======
