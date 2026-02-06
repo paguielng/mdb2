@@ -26,20 +26,20 @@ Dans mon travail, j'ai l'habitude d'utiliser certains outils populaires :
 
 Getting started
 ======
-1. In the Projects (Talks) section, you will find some of my personal and academic projects (mentioned!)
-1. Inside [Reserach](https://github.com/paguielng/GarageMaker) by clicking the "The sources Used" button on the bottom. 
-1. Go to the project's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+1. Dans la section Projets (Conférences), vous trouverez certains de mes projets personnels et universitaires (mentionnés !)
+1. Dans [Ressources](https://github.com/paguielng/GarageMaker) en cliquant sur le bouton « Sources utilisées » en bas. 
+1. Accédez aux paramètres du projet (élément le plus à droite dans les onglets commençant par « Code », qui devrait se trouver sous « Ne plus surveiller »). Renommez le référentiel « [votre nom d'utilisateur GitHub].github.io », qui sera également l'URL de votre site web.
+1. Définissez la configuration du site et créez du contenu et des métadonnées (voir ci-dessous -- voir également [cet ensemble de différences](https://archive.is/3TPas) montrant quels fichiers ont été modifiés pour configurer [un site exemple](https://getorg-testacct.github.io) pour un utilisateur avec le nom d'utilisateur « getorg-testacct »).
+1. Téléchargez tous les fichiers (tels que les PDF, les fichiers .zip, etc.) dans le répertoire files/. Ils apparaîtront à l'adresse https://[votre nom d'utilisateur GitHub].github.io/files/example.pdf.
+1. Vérifiez l'état en accédant aux paramètres du référentiel, dans la section « Pages GitHub ».
 
-Site-wide configuration
+Configuration à l'échelle du site
 ------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+Pour le contenu du site, il existe un fichier Markdown pour chaque type de contenu, qui sont stockés dans des répertoires tels que _publications, _talks, _posts, _teaching ou _pages. Par exemple, chaque conférence est un fichier Markdown dans le répertoire [_talks](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). En haut de chaque fichier Markdown se trouvent des données structurées en YAML concernant la conférence, que le thème analysera pour faire plein de choses sympas. Les mêmes données structurées sur une conférence sont utilisées pour générer la liste des conférences sur la [page Talks](https://academicpages.github.io/talks), chaque [page individuelle](https://academicpages.github.io/talks/2012-03-01-talk-1) pour des conférences spécifiques, la section conférences de la [page CV] (https://academicpages.github.io/cv) et la [carte des lieux où vous avez donné une conférence](https://academicpages.github.io/talkmap.html) (si vous exécutez ce [fichier python](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) ou [cahier Jupyter](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), qui crée le code HTML de la carte à partir du contenu du répertoire _talks).
 
 Example: editing a Markdown file for a project
 ![Editing a Markdown file for a talk]( ./images/editing-talk.png)
 
-For more info
+Pour plus d'informations
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+Pour plus d'informations sur mes projets et publications, consultez [le guide](https://academicpages.github.io/markdown/), le [wiki en constante évolution](https://github.com/academicpages/academicpages.github.io/wiki), et vous pouvez toujours [poser une question sur GitHub](https://github.com/academicpages/academicpages.github.io/discussions). Les [guides pour le thème Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (dont ce thème est dérivé) peuvent également vous être utiles.
