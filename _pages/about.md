@@ -38,7 +38,7 @@ Configuration à l'échelle du site
 Pour le contenu du site, il existe un fichier Markdown pour chaque type de contenu, qui sont stockés dans des répertoires tels que _publications, _talks, _posts, _teaching ou _pages. Par exemple, chaque conférence est un fichier Markdown dans le répertoire [_talks](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). En haut de chaque fichier Markdown se trouvent des données structurées en YAML concernant la conférence, que le thème analysera pour faire plein de choses sympas. Les mêmes données structurées sur une conférence sont utilisées pour générer la liste des conférences sur la [page Talks](https://academicpages.github.io/talks), chaque [page individuelle](https://academicpages.github.io/talks/2012-03-01-talk-1) pour des conférences spécifiques, la section conférences de la [page CV] (https://academicpages.github.io/cv) et la [carte des lieux où vous avez donné une conférence](https://academicpages.github.io/talkmap.html) (si vous exécutez ce [fichier python](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) ou [cahier Jupyter](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), qui crée le code HTML de la carte à partir du contenu du répertoire _talks).
 
 Example: editing a Markdown file for a project
-![Editing a Markdown file for a talk]( ./images/editing-talk.png)
+![Editing a Markdown file for a talk]( )
 
 Pour plus d'informations
 ------
