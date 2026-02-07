@@ -2,13 +2,13 @@
 title: "Projet Robot Mobile 2"
 collection: publications
 category: manuscripts
-permalink: /publication/2025-12-01-paper-title-number-1
+permalink: /publication/2025-12-01-paper-title-number-2
 excerpt: 'Cet article traite le Cahier des charges : Robot Mobile (Informatique).'
 date: 2025-12-01
 venue: 'Journal 1'
 slidesurl: 'https://paguielng.github.io/mdb2/files/slides2.pdf'
 paperurl: 'https://paguielng.github.io/mdb2/files/paper2.pdf'
-citation: 'Paguiel, Martin. (2025). &quot;Projet Robot Mobile 2.&quot; <i>Journal 1</i>. 1(1).'
+citation: 'Paguiel, Martin. (2025). &quot;Projet Robot Mobile 2.&quot; <i>Journal 1</i>. 1(2).'
 ---
 
 1. Présentation du projet
