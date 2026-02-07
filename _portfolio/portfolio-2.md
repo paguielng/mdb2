@@ -5,9 +5,9 @@ collection: portfolio
 ---
 
 1 Présentation du projet
----
+   ---
 1.1 Contexte
----
+   ---
 Une entreprise de jouet souhaite développer une voiture pilotée par smartphone, qui intègre plusieurs fonctionnalités comme l'anticollision, le signalement d'obstacle ……
 
 1.2 Objectifs
