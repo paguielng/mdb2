@@ -4,7 +4,7 @@ excerpt: "Short description of portfolio item number 1<br/><img src='/images/500
 collection: portfolio
 ---
 
-1. Présentation du projet
+1 Présentation du projet
    ---
 1.1 Contexte
    ---
@@ -38,7 +38,7 @@ donne le cap suivi par le robot.
 - Les consignes ont été respectées
 
 ---
-2. Expression des besoins
+2 Expression des besoins
 2.1 Besoins fonctionnel
    ---
 - Un prototype
@@ -46,7 +46,7 @@ donne le cap suivi par le robot.
 - Une démonstration du système opérationnel
 
 ---
-3. Contraintes
+3 Contraintes
 3.1 Coûts
    ---
 Aucune contrainte de coût n’est imposée. En revanche un calcul de coût unitaire de l'électronique pour une
@@ -71,7 +71,7 @@ La Base Roulante (robot) doit avoir une autonomie d'au moins 30 minutes avec une
 - cahier de laboratoire / de suivi à mettre à jour en fin de CHAQUE séance sur TEAMS
 
 ---
-4. Déroulement du projet
+4 Déroulement du projet
 4.1 Séquencement
    ---
    
