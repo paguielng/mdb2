@@ -1,15 +1,15 @@
 ---
-title: "Paper Title Number 1"
+title: "Projet Robot Mobile 1"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-11-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
+excerpt: 'Cet article traite le Cahier des charges de la SAE 2 du S1 : Robot Mobile.'
+date: 2025-11-01
 venue: 'Journal 1'
 slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
+paperurl: 'https://paguielng.github.io/mdb2/files/paper1.pdf'
 bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Paguiel, Martin. (2025). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+citation: 'Paguiel, Martin. (2025). &quot;Projet Robot Mobile 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
 1. Présentation du projet
