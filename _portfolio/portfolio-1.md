@@ -4,7 +4,7 @@ excerpt: "Cahier des charges de la SAE Robot Mobile<br/><img src='/images/500x30
 collection: portfolio
 ---
 
-1 Présentation du projet
+1. Présentation du projet
    ---
 1.1 Contexte
    ---
