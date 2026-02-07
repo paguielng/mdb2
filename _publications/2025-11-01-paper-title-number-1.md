@@ -6,9 +6,9 @@ permalink: /publication/2025-11-01-paper-title-number-1
 excerpt: 'Cet article traite le Cahier des charges de la SAE 2 du S1 : Robot Mobile.'
 date: 2025-11-01
 venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
+slidesurl: 'https://paguielng.github.io/mdb2/files/slides1.pdf'
 paperurl: 'https://paguielng.github.io/mdb2/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
+bibtexurl: 'https://paguielng.github.io/mdb2/files/bibtex1.bib'
 citation: 'Paguiel, Martin. (2025). &quot;Projet Robot Mobile 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
