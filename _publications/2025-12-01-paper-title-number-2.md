@@ -1,14 +1,14 @@
 ---
-title: "Projet Robot Mobile 2"
+title: "Projet Line Tracker 2"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-12-01-paper-title-number-2
-excerpt: 'Cet article traite le Cahier des charges : Robot Mobile (Informatique).'
+excerpt: 'Cet article traite le Cahier des charges : Line Tracker (Informatique).'
 date: 2025-12-01
 venue: 'Journal 1'
 slidesurl: 'https://paguielng.github.io/mdb2/files/slides2.pdf'
 paperurl: 'https://paguielng.github.io/mdb2/files/paper2.pdf'
-citation: 'Paguiel, Martin. (2025). &quot;Projet Robot Mobile 2.&quot; <i>Journal 1</i>. 1(2).'
+citation: 'Paguiel, Martin. (2025). &quot;Projet Line Tracker 2.&quot; <i>Journal 1</i>. 1(2).'
 ---
 
 1. Présentation du projet
