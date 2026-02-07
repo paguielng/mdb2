@@ -3,7 +3,7 @@ title: "Projet Robot Mobile 1"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-11-01-paper-title-number-1
-excerpt: 'Cet article traite le Cahier des charges de la SAE 2 du S1 : Robot Mobile.'
+excerpt: 'Cet article traite le Cahier des charges : Robot Mobile (Électronique).'
 date: 2025-11-01
 venue: 'Journal 1'
 slidesurl: 'https://paguielng.github.io/mdb2/files/slides1.pdf'
