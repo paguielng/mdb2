@@ -4,8 +4,8 @@ excerpt: "Short description of portfolio item number 1<br/><img src='/images/500
 collection: portfolio
 ---
 
----
 1. Présentation du projet
+   ---
 1.1 Contexte
    ---
 Une entreprise souhaite développer un nouveau produit à destination de son usine de production pour acheminer
@@ -75,20 +75,5 @@ La Base Roulante (robot) doit avoir une autonomie d'au moins 30 minutes avec une
 4.1 Séquencement
    ---
    
-Partie électronique du projet
-
----
-Semaine 42
----
-- Cours de présentation du projet et analyse fonctionnelle (durée 1h en amphi)
-- Planification du projet et mise en forme du cahier de fabrication (VdE) (1 séance de 2h tutorées)
-- Début Réalisation du circuit imprimé (1 séance de 2h encadrées)
-- Poursuite Réalisation du circuit imprimé (1 séances de 2h en autonomie)
-Semaine 43
-- Elaboration du cahier de laboratoire et cycle en V (VdE) (1 séance de 2h de tutorées)
-- Poursuite Réalisation du circuit imprimé (1 séances de 2h encadrées)
-Semaine 44
-- Vacances
-Semaine 45 (1 séance de 2h tutorées)
-- Suite analyse fonctionnelle, présentation étude de cout, autonomie du robot puis attendus du cahier de
-laboratoire, Début du dimensionnement de la fonction alimentation 
+- Partie électronique du projet
+- Partie Numérique du projet
