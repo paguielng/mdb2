@@ -43,12 +43,6 @@ Freenove Robot Dog Kit for Raspberry Pi
 
 ### Download
 
-* **Use command in console**
-
-	Run following command to download all the files in this repository.
-
-	`git clone https://github.com/Freenove/Freenove_Robot_Dog_Kit_for_Raspberry_Pi.git`
-
 * **Manually download in browser**
 
 	Click the green "Clone or download" button, then click "Download ZIP" button in the pop-up window.
