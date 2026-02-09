@@ -9,7 +9,7 @@ venue: 'Journal 1'
 Schema url: 'https://paguielng.github.io/mdb2/files/slides4.pdf'
 Tutorial url: 'https://paguielng.github.io/mdb2/files/paper4.pdf'
 Supplement url: 'https://paguielng.github.io/mdb2/files/paper4_1.pdf'
-citation: 'Paguiel. (2023). &quot;A Robot Dog Kit for Raspberry Pi.&quot; <i>Journal 1</i>. 1(4).'
+citation: 'Paguiel. (2023). &quot;A Robot Dog Kit for Raspberry Pi.&quot; <i>Journal on [Github](https://github.com/paguielng/noskipws/)</i>. 1(4).'
 ---
 
 ## Freenove Robot Dog Kit for Raspberry Pi
