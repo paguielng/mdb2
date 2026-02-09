@@ -3,7 +3,7 @@ title: "A Robot Dog Kit for Raspberry Pi."
 collection: publications
 category: manuscripts
 permalink: /publication/2023-02-17-paper-title-number-4
-excerpt: 'This is a programmable robot kit, which has multiple functions.'
+excerpt: 'This is a quadruped programmable robot kit, which has multiple functions.'
 date: 2023-02-17
 venue: 'Journal 1'
 slidesurl: 'https://paguielng.github.io/mdb2/files/slides4.pdf'
