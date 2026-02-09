@@ -12,7 +12,9 @@ bibtexurl: 'https://paguielng.github.io/mdb2/files/paper4_1.pdf'
 citation: 'Paguiel Nganji.(2023). &quot;A Robot Dog Kit for Raspberry Pi.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
-## Freenove Robot Dog Kit for Raspberry Pi
+   ---
+Freenove Robot Dog Kit for Raspberry Pi
+   ---
 
 > A Robot Dog Kit for Raspberry Pi.
 
