@@ -2,9 +2,9 @@
 title: "A Robot Dog Kit for Raspberry Pi."
 collection: publications
 category: manuscripts
-permalink: /publication/2025-11-01-paper-title-number-1
+permalink: /publication/2024-02-17-paper-title-number-4
 excerpt: 'Cet article traite le Cahier des charges : A Robot Dog Kit for Raspberry Pi.'
-date: 2024-01-01
+date: 2024-02-17
 venue: 'Journal 1'
 Schema url: 'https://paguielng.github.io/mdb2/files/slides4.pdf'
 Tutorial url: 'https://paguielng.github.io/mdb2/files/paper4.pdf'
