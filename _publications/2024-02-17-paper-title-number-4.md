@@ -1,15 +1,15 @@
 ---
-title: "Projet Robot Mobile 1"
+title: "A Robot Dog Kit for Raspberry Pi."
 collection: publications
 category: manuscripts
 permalink: /publication/2025-11-01-paper-title-number-1
-excerpt: 'Cet article traite le Cahier des charges : Robot Mobile (Électronique).'
-date: 2025-11-01
+excerpt: 'Cet article traite le Cahier des charges : A Robot Dog Kit for Raspberry Pi.'
+date: 2024-01-01
 venue: 'Journal 1'
-slidesurl: 'https://paguielng.github.io/mdb2/files/slides1.pdf'
-paperurl: 'https://paguielng.github.io/mdb2/files/paper1.pdf'
-bibtexurl: 'https://paguielng.github.io/mdb2/files/bibtex1.bib'
-citation: 'Paguiel, Martin. (2025). &quot;Projet Robot Mobile 1.&quot; <i>Journal 1</i>. 1(1).'
+Schema url: 'https://paguielng.github.io/mdb2/files/slides4.pdf'
+Tutorial url: 'https://paguielng.github.io/mdb2/files/paper4.pdf'
+Supplement url: 'https://paguielng.github.io/mdb2/files/paper4_1.pdf'
+citation: 'Paguiel. (2025). &quot;A Robot Dog Kit for Raspberry Pi.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
 ## Freenove Robot Dog Kit for Raspberry Pi
