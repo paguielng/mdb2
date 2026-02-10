@@ -42,7 +42,7 @@ Skills
         <!-- Compétence Principale 1 -->
         <li>
             <i class="fas fa-code"></i>
-            <span>C / C++/ Web Development</span>
+            <span>C / C++/ web3</span>
             <!-- Sous-compétences pour C/C++ -->
             <ul class="sub-skills">
                 <li>Object-Oriented Programming (OOP)</li>
@@ -151,7 +151,7 @@ Teaching
   
 Languages
 ======
-<ul><em>French (native), English (fluent)</em></ul>
+<ul><em>French (native), English (B2)</em></ul>
 
 Service and leadership
 ======
