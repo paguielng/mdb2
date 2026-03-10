@@ -1,6 +1,6 @@
 ---
 title: "TP08 - PROJET DE SYNTHESE"
-excerpt: "S2 Informatique embarquée STMicroelectronics<br/><img src='/images/500x300.png'>"
+excerpt: "S2 Informatique embarquée STM32 NUCLEO-L476RG<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
