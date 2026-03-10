@@ -10,7 +10,7 @@ collection: portfolio
    ---
 Ce TP s’étendra sur 3 séances. Il s’agit d’un projet de synthèse dans lequel nous reprendrons plusieurs
 éléments vus dans les TP précédents : 
-1. TP01 Prise en main (git, C++, platformIO...)
+1. TP01 Prise en main Carte Nucleo (git, C++, platformIO...)
 2. TP02 - gestion du temps - GPIO
 3. TP03 GPIO
 4. TP04 Debug
