@@ -11,6 +11,7 @@ paperurl: 'https://paguielng.github.io/mdb2/files/paper4.pdf'
 bibtexurl: 'https://paguielng.github.io/mdb2/files/paper4_1.pdf'
 citation: 'Paguiel Nganji.(2023). &quot;A Robot Dog Kit for Raspberry Pi.&quot; <i>Journal 1</i>. 1(1).'
 ---
+{% include toc %}
 
    ---
 Freenove Robot Dog Kit for Raspberry Pi
@@ -117,4 +118,5 @@ Our code and circuit are open source. You can obtain the details and the latest 
 
 http://www.freenove.com
 
----
+**Important!** Since the data is parsed as JSON *all* of the keys will need to be quoted for the plot to render. The use of a tool like [JSONLint](https://jsonlint.com/) to check syntax is highly recommended.
+{: .notice}
