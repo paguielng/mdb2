@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Sitemap"
-permalink: /sitemap/
+permalink: /mdb2/sitemap/
 author_profile: true
 ---
 
