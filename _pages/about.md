@@ -40,7 +40,7 @@ Pour le contenu du site, les mêmes données structurées sur une conférence so
 Example: editing a Markdown file for a project
 
 ---
-<img src="https://raw.githubusercontent.com/paguielng/rxeus/2ad8c42e112ad3148e326fbe13f5f10aef613928/assets/blocks.svg"
+<img src="https://github.com/paguielng/mdb2/blob/master/images/1779986999545.gif?raw=true"
      alt="Editing a Markdown file for a talk"
      width="280">
 
