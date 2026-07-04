@@ -14,6 +14,6 @@ citation: 'Paguiel, Shahin. (2026). &quot;S2 SAE CHAINE DE PRODUCTION 4.&quot; <
 1 Présentation du projet
    ---
 Cette station automatisée trie des pièces sur un tapis roulant : elle garde les recyclables et envoie les autres à la poubelle, sans intervention humaine ……
-   ---
+
 
 <iframe src="https://paguielng.github.io/mdb2/files/cahier-de-labo-chaine-de-production.pdf" width="100%" height="600px" style="border: none;"></iframe>
