@@ -1,5 +1,5 @@
 ---
-title: "Projet SAE CHAINE DE PRODUCTION"
+title: "SAE CHAINE DE PRODUCTION"
 collection: publications
 category: manuscripts
 permalink: /publication/2026-06-01-paper-title-number-4
