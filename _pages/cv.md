@@ -60,7 +60,7 @@ Skills
                 <li>Arduino / ESP32</li>
                 <li>Signal analysis (Oscilloscope)</li>
                 <li>Schematic & PCB Design</li>
-                <li>simulation : Proteus/KICAD</li>
+                <li>Simulation : Proteus/KICAD</li>
             </ul>
         </li>
 
