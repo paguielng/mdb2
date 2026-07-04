@@ -1,9 +1,9 @@
 ---
-title: "Projet SAE SMARTCAR 3"
+title: "Projet SAE CHAINE DE PRODUCTION"
 collection: publications
 category: manuscripts
-permalink: /publication/2026-01-01-paper-title-number-3
-excerpt: 'Cet article traite le Cahier des charges : SMARTCAR (Électronique).'
+permalink: /publication/2026-06-01-paper-title-number-4
+excerpt: 'Cet article comporte le Cahier de laboratoire : CHAINE DE PROD (Automatisme Industriel).'
 date: 2026-01-01
 venue: 'Journal 1'
 slidesurl: 'https://paguielng.github.io/mdb2/files/slides3.pdf'
