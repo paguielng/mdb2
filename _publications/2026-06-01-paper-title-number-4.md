@@ -6,9 +6,9 @@ permalink: /publication/2026-06-01-paper-title-number-4
 excerpt: 'Cet article comporte le Cahier de laboratoire : CHAINE DE PROD (Automatisme Industriel).'
 date: 2026-01-01
 venue: 'Journal 1'
-slidesurl: 'https://paguielng.github.io/mdb2/files/slides3.pdf'
-paperurl: 'https://paguielng.github.io/mdb2/files/paper3.pdf'
-citation: 'Paguiel, Pierre. (2026). &quot;S2 SAE SMARTCAR 3.&quot; <i>Journal 1</i>. 1(3).'
+slidesurl: 'https://github.com/paguielng/mdb2/blob/master/files/chaine-de-production.pdf'
+paperurl: 'https://github.com/paguielng/mdb2/blob/master/files/chaine-de-production.pdf'
+citation: 'Paguiel, Shahin. (2026). &quot;S2 SAE CHAINE DE PROD 4.&quot; <i>Journal 1</i>. 1(4).'
 ---
 
 1 Présentation du projet
