@@ -11,10 +11,10 @@ paperurl: 'https://paguielng.github.io/mdb2/files/chaine-de-production.pdf'
 citation: 'Paguiel, Shahin. (2026). &quot;S2 SAE CHAINE DE PROD 4.&quot; <i>Journal 1</i>. 1(4).'
 ---
 
-## 1. Présentation du projet
-
-### 1.1 Contexte
-
+1 Présentation du projet
+   ---
+1.1 Contexte
+   ---
 Cette station automatisée trie des pièces sur un tapis roulant : elle garde les recyclables et envoie les autres à la poubelle, sans intervention humaine. ……
 
 <iframe src="{{ base_path }}/files/chaine-de-production.pdf" width="100%" height="600px" style="border: none;"></iframe>
