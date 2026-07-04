@@ -1,5 +1,5 @@
 ---
-title: "CHAINE DE PRODUCTION"
+title: "Projet CHAINE DE PRODUCTION"
 collection: publications
 category: manuscripts
 permalink: /publication/2026-06-01-paper-title-number-4
@@ -17,6 +17,6 @@ citation: 'Paguiel, Shahin. (2026). &quot;S2 SAE CHAINE DE PRODUCTION 4.&quot; <
    ---
 Cette station automatisée trie des pièces sur un tapis roulant : elle garde les recyclables et envoie les autres à la poubelle, sans intervention humaine ……
 
-<iframe src="{{ base_path }}/files/cahier-de-labo-chaine-de-production" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="{{ base_path }}/blob/master/files/cahier-de-labo-chaine-de-production" width="100%" height="600px" style="border: none;"></iframe>
 
-Le PDF ne s'affiche pas ? [Télécharge-le ici]({{ base_path }}/files/cahier-de-labo-chaine-de-production.pdf).
+Le PDF ne s'affiche pas ? [Télécharge-le ici]({{ base_path }}/blob/master/files/cahier-de-labo-chaine-de-production.pdf).
