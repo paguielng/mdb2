@@ -19,20 +19,20 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Fabriquet: Fablab Planète Science Occitanie
+  * Campagnes de lancements
+  * Lancement d’une micro-fusée et initiation à la modélisation 3D
+  * Embarquée: MicroPython
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Bénévolat: Accompagnant éducatif
+  * AFEV – École primaire
+  * Soutien devoirs: Aide au devoirs
+  * Encadrement: mentorat individualisé
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Lauréat 2026 du prix STEM for all
+  * Thales Solidarity : Paris
+  * Vocations des jeunes pour les STEM
+  * Bourses: 5000 € pour étudiants
   
 Skills
 ======
@@ -60,6 +60,7 @@ Skills
                 <li>Arduino / ESP32</li>
                 <li>Signal analysis (Oscilloscope)</li>
                 <li>Schematic & PCB Design</li>
+                <li>simulation : Proteus/KICAD</li>
             </ul>
         </li>
 
@@ -70,6 +71,8 @@ Skills
             <ul class="sub-skills">
                 <li>Motor & Servomotor Control</li>
                 <li>Sensors (IMU, Ultrasound)</li>
+                <li>TIA Portal (Siemens)</li>
+                <li>Control Expert (Schneider Electric)</li>
             </ul>
         </li>
         
@@ -82,6 +85,7 @@ Skills
                 <li>Scripting & Automation</li>
                 <li>Data Analysis (Matplotlib, NumPy)</li>
                 <li>Serial Communication with Microcontrollers</li>
+                <li>Microsoft/ Pack Office</li>
             </ul>
         </li>
     </ul>
