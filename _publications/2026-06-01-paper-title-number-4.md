@@ -15,7 +15,7 @@ citation: 'Paguiel, Shahin. (2026). &quot;S2 SAE CHAÎNE DE PRODUCTION 4.&quot; 
    ---
 1.1 Contexte
    ---
-Une entreprise de jouet souhaite développer une voiture pilotée par smartphone, qui intègre plusieurs fonctionnalités comme l'anticollision, le signalement d'obstacle ……
+Cette station automatisée trie des pièces sur un tapis roulant : elle garde les recyclables et envoie les autres à la poubelle, sans intervention humaine ……
 
 <iframe src="{{ base_path }}/files/chaine_de_production.pdf" width="100%" height="600px" style="border: none;"></iframe>
 
