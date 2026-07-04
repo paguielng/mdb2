@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Je suis [Paguiel Nganji](https://www.linkedin.com/in/paguiel-nganji/), Je suis étudiant en **Génie électrique et informatique industrielle**,  et je suis passionné par le fonctionnement des système. Je me spécialise dans l'électronique et l'informatique embarquée.
+Je suis [Paguiel Nganji](https://www.linkedin.com/in/paguiel-nganji/), Je suis étudiant en **Génie électrique et informatique industrielle**,  et je suis passionné par le fonctionnement des système. Je me spécialise dans l'électronique, l'informatique embarquée et l'Automatisme industrielle.
 
  Cette page présente mes travaux académiques universitaire et des projets personnels.
   
