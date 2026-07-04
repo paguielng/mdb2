@@ -18,3 +18,7 @@ citation: 'Paguiel, Shahin. (2026). &quot;S2 SAE CHAINE DE PROD 4.&quot; <i>Jour
 Cette station automatisée trie des pièces sur un tapis roulant : elle garde les recyclables et envoie les autres à la poubelle, sans intervention humaine. ……
 
 <embed src="{{ base_path }}/files/chaine-de-production.pdf" type="application/pdf" width="100%" height="600px" />
+<iframe src="{{ base_path }}/files/chaine-de-production.pdf" width="100%" height="600px" style="border: none;"></iframe>
+
+Le PDF ne s'affiche pas ? [Télécharge-le ici]({{ base_path }}/files/chaine-de-production.pdf).
+
