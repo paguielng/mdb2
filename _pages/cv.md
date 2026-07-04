@@ -30,7 +30,7 @@ Work experience
   * Encadrement: mentorat individualisé
 
 * Lauréat 2026 du prix STEM for all
-  * Thales Solidarity : Pl. de la Défense
+  * Thales Solidarity : Pl. de la Défense (Thales Group)
   * Vocations des jeunes pour les STEM
   * Bourses: 5000 € pour étudiants
   
