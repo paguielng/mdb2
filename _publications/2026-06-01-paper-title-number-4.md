@@ -8,7 +8,7 @@ date: 2026-06-01
 venue: 'Journal 1'
 slidesurl: 'https://paguielng.github.io/mdb2/files/chaine-de-production.pdf'
 paperurl: 'https://paguielng.github.io/mdb2/files/chaine-de-production.pdf'
-citation: 'Paguiel, Shahin. (2026). &quot;S2 SAE CHAINE DE PROD 4.&quot; <i>Journal 1</i>. 1(4).'
+citation: 'Paguiel, Shahin. (2026). &quot;S2 SAE CHAÎNE DE PRODUCTION 4.&quot; <i>Journal 1</i>. 1(4).'
 ---
 
 1 Présentation du projet
