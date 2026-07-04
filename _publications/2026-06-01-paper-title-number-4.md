@@ -3,12 +3,12 @@ title: "Projet SAE CHAINE DE PRODUCTION"
 collection: publications
 category: manuscripts
 permalink: /publication/2026-06-01-paper-title-number-4
-excerpt: 'Cet article comporte le Cahier de laboratoire : CHAÎNE DE PRODUCTION (Automatisme & Informatique Industrielle).'
+excerpt: 'Cet article comporte le Cahier de laboratoire : Automatisme & Informatique Industrielle.'
 date: 2026-06-01
 venue: 'Journal 1'
 slidesurl: 'https://paguielng.github.io/mdb2/files/chaine_de_production.pdf'
 paperurl: 'https://paguielng.github.io/mdb2/files/chaine_de_production.pdf'
-citation: 'Paguiel, Shahin. (2026). &quot;S2 SAE CHAÎNE DE PRODUCTION 4.&quot; <i>Journal 1</i>. 1(4).'
+citation: 'Paguiel, Shahin. (2026). &quot;S2 SAE CHAINE DE PRODUCTION 4.&quot; <i>Journal 1</i>. 1(4).'
 ---
 
 1 Présentation du projet
