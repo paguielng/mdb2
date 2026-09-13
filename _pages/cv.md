@@ -22,7 +22,6 @@ Work experience
 * Fabriquet: Fablab Planète Science Occitanie
   * Campagnes de lancements
   * Lancement d’une micro-fusée et initiation à la modélisation 3D
-  * Embarquée: MicroPython
 
 * Bénévolat: Accompagnant éducatif
   * AFEV – École primaire
@@ -32,7 +31,6 @@ Work experience
 * Lauréat 2026 du prix STEM for all
   * Thales Solidarity : Pl. de la Défense (Thales Group)
   * Vocations des jeunes pour les STEM
-  * Bourses: 5000 € pour étudiants
   
 Skills
 ======
