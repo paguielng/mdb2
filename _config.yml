@@ -7,12 +7,12 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "fr-FR"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Le Garage Maker"
+title                    : "Paguiel NGANJI MUCYO"
 title_separator          : "-"
 name                     : &name "Paguiel NGANJI MUCYO"
-description              : &description "I build stuff... sometimes in the right order."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Étudiant en BUT Génie Électrique et Informatique Industrielle (GEII) à Toulouse : électronique, informatique embarquée et automatisme. Projets, expériences et contact."
 url                      : https://paguielng.github.io/mdb2 # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,8 +26,8 @@ author:
   avatar           : "profile.png"
   name             : "Paguiel NGANJI"
   pronouns         : # example: "He/him"  
-  bio              : "Génie Électrique Informatique Industrielle"
-  location         : "Toulouse "
+  bio              : "Étudiant en BUT GEII, électronique, embarqué et automatisme"
+  location         : "Toulouse"
   employer         : "Université de Toulouse"
   uri              : # URL
   email            : "paguiel.nganji-mucyo@etu.iut-tlse3.fr" 
@@ -122,7 +122,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true      # pas de blog : on masque le flux RSS
   path                   : # blank (default) uses feed.xml
 
 
@@ -226,7 +226,7 @@ collections:
     permalink: /:collection/:path/
   portfolio:
     output: true
-    permalink: /:collection/:path/
+    permalink: /projets/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -277,8 +277,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comment: true
+      share: false
   # _talks
   - scope:
       path: ""

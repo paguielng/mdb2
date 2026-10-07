@@ -1,49 +1,49 @@
 ---
 permalink: /
-title: "A logbook of my work"
+title: "Accueil"
+excerpt: "Étudiant en BUT GEII à Toulouse : électronique, informatique embarquée et automatisme."
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
+{% include base_path %}
 
-Je suis [Paguiel Nganji](https://www.linkedin.com/in/paguiel-nganji/), Je suis étudiant en **Génie électrique et informatique industrielle**,  et je suis passionné par le fonctionnement des système. Je me spécialise dans l'électronique, l'informatique embarquée et l'Automatisme industrielle.
+<div class="hero">
+  <p class="hero__title">Je conçois des systèmes électroniques qui fonctionnent pour de vrai.</p>
+  <p class="hero__lead">Étudiant en <strong>BUT Génie Électrique et Informatique Industrielle (GEII)</strong> à Toulouse, je me spécialise dans l'électronique, l'informatique embarquée et l'automatisme industriel.</p>
+  <p class="a-completer">Ce que tu recherches et à quelle date (ex. « Je recherche un stage de 10 semaines à partir d'avril 2027 » ou une alternance). C'est l'information que le recruteur doit voir en premier.</p>
+  <a href="{{ base_path }}/projets/" class="btn btn--primary btn--large">Voir mes projets</a>
+  <a href="{{ base_path }}/cv/" class="btn btn--outline btn--large">Mon CV</a>
+  <a href="{{ base_path }}/contact/" class="btn btn--outline btn--large">Me contacter</a>
+</div>
 
- Cette page présente mes travaux académiques universitaire et des projets personnels.
-  
-  Vous trouverez des exemples de mon travail sur mon [profil Github](https://github.com/paguielng), tels que des projets experimentaux et de petits gadgets électroniques. Chaque projet est l'occasion d'apprendre une nouvelle façon de réfléchir et de faire les choses.
+## Ce que je sais faire
 
-Mes outils et ressources
-======
-Dans mon travail, j'ai l'habitude d'utiliser certains outils populaires :
-- [C/C++](https://isocpp.org/) pour les applications embarquées où les performances sont cruciales.
-- [KiCad](https://www.kicad.org/) pour schématiser les circuits électroniques
-- [Git/GitHub](https://github.com/paguielng/) pour gérer mes projets
-- [Wokwi](https://wokwi.com/) pour le simulateur ESP32 en ligne
-- [MatLab](https://www.mathworks.com/products/matlab.html/) pour les simulations informatiques
-- [MathJax](https://www.mathjax.org/) pour les équations mathématiques
-- [Fusion360](https://www.autodesk.com/fr/products/fusion-360/overview/) pour la modélisation CAO
+<ul class="cards">
+  <li class="card"><div class="card__body">
+    <i class="fas fa-microchip card__icon" aria-hidden="true"></i>
+    <h3 class="card__title">Électronique</h3>
+    <p class="card__text">Schémas et cartes sous KiCad et Proteus, mesures à l'oscilloscope, Arduino et ESP32.</p>
+  </div></li>
+  <li class="card"><div class="card__body">
+    <i class="fas fa-code card__icon" aria-hidden="true"></i>
+    <h3 class="card__title">Informatique embarquée</h3>
+    <p class="card__text">C/C++ sur microcontrôleur (STM32, Raspberry Pi), Python pour l'automatisation et l'analyse de données.</p>
+  </div></li>
+  <li class="card"><div class="card__body">
+    <i class="fas fa-industry card__icon" aria-hidden="true"></i>
+    <h3 class="card__title">Automatisme</h3>
+    <p class="card__text">Programmation d'automates avec TIA Portal (Siemens) et Control Expert (Schneider Electric).</p>
+  </div></li>
+</ul>
 
-Getting started
-======
-1. Dans la section Projets (Conférences), vous trouverez certains de mes projets personnels et universitaires (mentionnés !)
-1. Dans [Ressources](https://github.com/paguielng/GarageMaker) en cliquant sur le bouton « Sources utilisées » en bas. 
-1. Accédez aux paramètres du projet (élément le plus à droite dans les onglets commençant par « Code », qui devrait se trouver sous « Ne plus surveiller »). Renommez le référentiel « [votre nom d'utilisateur GitHub].github.io », qui sera également l'URL de votre site web.
-1. Définissez la configuration du site et créez du contenu et des métadonnées (voir ci-dessous -- voir également [cet ensemble de différences](https://archive.is/3TPas) montrant quels fichiers ont été modifiés pour configurer [un site exemple](https://getorg-testacct.github.io) pour un utilisateur avec le nom d'utilisateur « getorg-testacct »).
-1. Téléchargez tous les fichiers (tels que les PDF, les fichiers .zip, etc.) dans le répertoire files/. Ils apparaîtront à l'adresse https://[votre nom d'utilisateur GitHub].github.io/files/example.pdf.
-1. Vérifiez l'état en accédant aux paramètres du référentiel, dans la section « Pages GitHub ».
+## Projets à la une
 
-Configuration à l'échelle du site
-------
-Pour le contenu du site, les mêmes données structurées sur une conférence sont utilisées pour générer la liste des conférences sur la [page Talks](https://academicpages.github.io/talks), chaque [page individuelle](https://academicpages.github.io/talks/2012-03-01-talk-1) pour des conférences spécifiques, la section conférences de la [page CV] (https://academicpages.github.io/cv) et la [carte des lieux où vous avez donné une conférence](https://academicpages.github.io/talkmap.html) (si vous exécutez ce [fichier python](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) ou [cahier Jupyter](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), qui crée le code HTML de la carte à partir du contenu du répertoire _talks).
+{% include project-cards.html limit=3 %}
 
-Example: editing a Markdown file for a project
+<p><a href="{{ base_path }}/projets/">Voir tous mes projets <i class="fas fa-arrow-right" aria-hidden="true"></i></a></p>
 
----
-<img src="https://github.com/paguielng/mdb2/blob/master/images/1779986999545.gif?raw=true"
-     alt="Editing a Markdown file for a talk"
-     width="400">
+## En dehors des cours
 
-Pour plus d'informations
-------
-Pour plus d'informations sur mes projets et publications, consultez [le guide](https://academicpages.github.io/markdown/), le [wiki en constante évolution](https://github.com/academicpages/academicpages.github.io/wiki), et vous pouvez toujours [poser une question sur GitHub](https://github.com/academicpages/academicpages.github.io/discussions). Les [guides pour le thème Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (dont ce thème est dérivé) peuvent également vous être utiles.
+Passionné d'aéronautique et d'espace depuis le collège (BIA, stage à l'ISAE-SUPAERO), j'ai conçu et lancé ma propre [micro-fusée]({{ base_path }}/projets/04-micro-fusee/) au Fablab de Planète Sciences. Je m'engage aussi comme bénévole auprès d'élèves de primaire avec l'AFEV, et j'ai été lauréat 2026 du prix **STEM for All** de Thales Solidarity. [Découvrir mes expériences]({{ base_path }}/experiences/).
