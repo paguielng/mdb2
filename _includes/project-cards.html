@@ -1,0 +1,26 @@
+{% comment %}
+  Grille de cartes projet.
+  Paramètres : categorie (filtre facultatif), limit (nombre maximum de cartes).
+{% endcomment %}
+{% include base_path %}
+{% assign projets = site.portfolio | sort: "order" %}
+{% if include.categorie %}
+  {% assign projets = projets | where: "categorie", include.categorie %}
+{% endif %}
+<ul class="cards">
+  {% for projet in projets limit: include.limit | default: 99 %}
+    {% assign teaser = projet.header.teaser %}
+    <li class="card">
+      <a href="{{ base_path }}{{ projet.url }}">
+        {% if teaser %}
+          <img src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ base_path }}/images/{{ teaser }}{% endif %}" alt="" loading="lazy">
+        {% endif %}
+        <div class="card__body">
+          <span class="tag">{{ projet.categorie }}</span>
+          <h3 class="card__title">{{ projet.title }}</h3>
+          <p class="card__text">{{ projet.excerpt | strip_html }}</p>
+        </div>
+      </a>
+    </li>
+  {% endfor %}
+</ul>

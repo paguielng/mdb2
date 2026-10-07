@@ -1,14 +1,20 @@
 ---
-layout: archive
-title: "Portfolio"
-permalink: /portfolio/
+layout: single
+title: "Mes projets"
+permalink: /projets/
 author_profile: true
+redirect_from:
+  - /portfolio/
+  - /talks/
+  - /publications/
 ---
 
-{% include base_path %}
+<p>Voici les projets qui me tiennent le plus à cœur. Pour chacun, j'explique l'objectif, <strong>ce que j'ai fait moi-même</strong> et ce que j'en ai retenu. Cliquez sur une carte pour lire la fiche.</p>
 
+<h2>Projets universitaires (SAÉ)</h2>
+<p>Les SAÉ sont les situations d'apprentissage et d'évaluation du BUT GEII : des projets concrets menés en équipe, du cahier des charges jusqu'à la démonstration.</p>
+{% include project-cards.html categorie="SAÉ" %}
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
-
+<h2>Projets personnels</h2>
+<p>Ce que je construis sur mon temps libre, par curiosité.</p>
+{% include project-cards.html categorie="Projet personnel" %}
