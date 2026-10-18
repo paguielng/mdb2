@@ -1,13 +1,13 @@
 ---
 title: "Slime Soccer, jeu de football 2D"
 excerpt: "Projet personnel : un jeu d'arcade jouable dans le navigateur, avec un moteur physique fait maison (React et Canvas)."
-categorie: "Projet personnel"
-order: 5
+categorie: "Loisir"
+order: 2
+layout: single
 header:
   teaser: https://github.com/paguielng/rxeus/blob/main/assets/pitch.png?raw=true
 redirect_from:
   - /talks/2014-02-01-talk-2
-  - /posts/2012/08/blog-post-4/
 ---
 
 <div class="fiche">

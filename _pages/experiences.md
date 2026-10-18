@@ -24,7 +24,7 @@ En dehors de mes études, ces expériences m'ont fait progresser autant sur le p
   <li>
     <span class="timeline__date">2022 – 2023</span>
     <h3>Maker au Fablab Le Fabriquet, Planète Sciences Occitanie</h3>
-    <p>Participation aux campagnes de lancement, initiation à la modélisation 3D, conception et lancement de ma <a href="{{ base_path }}/projets/04-micro-fusee/">micro-fusée</a>.</p>
+    <p>Participation aux campagnes de lancement, initiation à la modélisation 3D, conception et lancement de ma <a href="{{ base_path }}/loisirs/01-micro-fusee/">micro-fusée</a>.</p>
   </li>
   <li>
     <span class="timeline__date">2022</span>

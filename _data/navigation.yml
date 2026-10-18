@@ -1,19 +1,30 @@
 # Menu principal du site (ordre d'affichage dans la barre de navigation).
-# Sections essentielles : Accueil, Profil, Projets, CV, Contact.
-# Section conseillée : Expériences.
+# La page « Guide » (/markdown/) existe toujours mais n'est plus dans le menu.
 
 main:
-  - title: "Profil"
-    url: /profil/
-
   - title: "Projets"
     url: /projets/
 
-  - title: "Expériences"
-    url: /experiences/
+  - title: "Loisirs"
+    url: /loisirs/
+
+  - title: "Portfolio"
+    url: /portfolio/
+
+  - title: "Blog"
+    url: /year-archive/
 
   - title: "CV"
     url: /cv/
 
-  - title: "Contact"
-    url: /contact/
+# Bouton « retour » affiché en bas de chaque fiche, selon son onglet.
+retour:
+  publications:
+    title: "Tous mes projets"
+    url: /projets/
+  talks:
+    title: "Tous mes loisirs"
+    url: /loisirs/
+  portfolio:
+    title: "Tout le portfolio"
+    url: /portfolio/

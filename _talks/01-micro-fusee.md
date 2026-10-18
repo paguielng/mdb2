@@ -1,8 +1,9 @@
 ---
 title: "Micro-fusée amateur"
 excerpt: "Projet personnel au Fablab Planète Sciences : concevoir, simuler, fabriquer et lancer une micro-fusée de 60 cm (apogée 200 m)."
-categorie: "Projet personnel"
-order: 4
+categorie: "Loisir"
+order: 1
+layout: single
 header:
   teaser: projets/micro-fusee.jpg
 redirect_from:

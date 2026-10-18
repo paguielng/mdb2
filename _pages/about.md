@@ -15,6 +15,7 @@ redirect_from:
   <p class="a-completer">Ce que tu recherches et à quelle date (ex. « Je recherche un stage de 10 semaines à partir d'avril 2027 » ou une alternance). C'est l'information que le recruteur doit voir en premier.</p>
   <a href="{{ base_path }}/projets/" class="btn btn--primary btn--large">Voir mes projets</a>
   <a href="{{ base_path }}/cv/" class="btn btn--outline btn--large">Mon CV</a>
+  <a href="{{ base_path }}/profil/" class="btn btn--outline btn--large">Qui suis-je ?</a>
   <a href="{{ base_path }}/contact/" class="btn btn--outline btn--large">Me contacter</a>
 </div>
 
@@ -46,4 +47,4 @@ redirect_from:
 
 ## En dehors des cours
 
-Passionné d'aéronautique et d'espace depuis le collège (BIA, stage à l'ISAE-SUPAERO), j'ai conçu et lancé ma propre [micro-fusée]({{ base_path }}/projets/04-micro-fusee/) au Fablab de Planète Sciences. Je m'engage aussi comme bénévole auprès d'élèves de primaire avec l'AFEV, et j'ai été lauréat 2026 du prix **STEM for All** de Thales Solidarity. [Découvrir mes expériences]({{ base_path }}/experiences/).
+Passionné d'aéronautique et d'espace depuis le collège (BIA, stage à l'ISAE-SUPAERO), j'ai conçu et lancé ma propre [micro-fusée]({{ base_path }}/loisirs/01-micro-fusee/) au Fablab de Planète Sciences. Je m'engage aussi comme bénévole auprès d'élèves de primaire avec l'AFEV, et j'ai été lauréat 2026 du prix **STEM for All** de Thales Solidarity. [Découvrir mes expériences]({{ base_path }}/experiences/).

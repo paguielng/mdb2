@@ -1,8 +1,9 @@
 ---
 title: "Pierre-Feuille-Ciseaux-Lézard-Spock"
 excerpt: "Projet personnel : une version étendue et interactive du chifoumi, jouable en ligne."
-categorie: "Projet personnel"
-order: 6
+categorie: "Loisir"
+order: 3
+layout: single
 header:
   teaser: https://raw.githubusercontent.com/paguielng/mbedt/063d13e8fee188b89d38aa3832f86a2c83704189/images/image-rules.svg
 redirect_from:

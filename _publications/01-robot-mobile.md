@@ -6,7 +6,6 @@ order: 1
 header:
   teaser: projets/robot-mobile.jpg
 redirect_from:
-  - /portfolio/portfolio-1/
   - /publication/2025-11-01-paper-title-number-1
   - /publication/2025-12-01-paper-title-number-2
 ---

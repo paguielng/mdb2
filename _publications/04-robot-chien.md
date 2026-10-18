@@ -2,7 +2,7 @@
 title: "Robot chien quadrupède"
 excerpt: "Projet personnel : assembler, calibrer et programmer le robot chien Freenove sur Raspberry Pi."
 categorie: "Projet personnel"
-order: 7
+order: 4
 header:
   teaser: https://github.com/paguielng/noskipws/blob/main/code/client/Picture/dog_calibration.png?raw=true
 redirect_from:

@@ -221,15 +221,15 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
+  publications:          # onglet « Projets »
     output: true
     permalink: /projets/:path/
-  talks:
+  portfolio:
     output: true
-    permalink: /:collection/:path/
+    permalink: /portfolio/:path/
+  talks:                 # onglet « Loisirs »
+    output: true
+    permalink: /loisirs/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -268,8 +268,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
+      share: false
   # _portfolio
   - scope:
       path: ""
@@ -283,9 +282,9 @@ defaults:
       path: ""
       type: talks
     values:
-      layout: talk
+      layout: single
       author_profile: true
-      share: true
+      share: false
 
 
 # Sass/SCSS

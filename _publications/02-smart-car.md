@@ -6,7 +6,6 @@ order: 2
 header:
   teaser: projets/smart-car.jpg
 redirect_from:
-  - /portfolio/portfolio-2/
   - /publication/2026-01-01-paper-title-number-3
 ---
 {% include base_path %}
