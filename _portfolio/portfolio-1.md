@@ -1,10 +1,6 @@
 ---
 title: "Portfolio Robot Mobile"
-excerpt: "Cahier des charges de la SAÉ Robot mobile"
-categorie: "Dossier technique"
-order: 1
-header:
-  teaser: projets/robot-mobile.jpg
+excerpt: "Cahier des charges de la SAE Robot Mobile<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 

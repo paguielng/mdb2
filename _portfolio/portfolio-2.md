@@ -1,10 +1,6 @@
 ---
 title: "Portfolio SMART CAR"
-excerpt: "Cahier des charges de la SAÉ Smart Car"
-categorie: "Dossier technique"
-order: 2
-header:
-  teaser: projets/smart-car.jpg
+excerpt: "Cahier des charges de la SAE SMART CAR <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 

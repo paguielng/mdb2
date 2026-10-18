@@ -1,12 +1,16 @@
 ---
-layout: single
-title: "Mes loisirs"
-permalink: /loisirs/
+layout: archive
+title: "Talks and presentations"
+permalink: /talks/
 author_profile: true
-redirect_from:
-  - /talks/
 ---
 
-<p>Ce que je construis sur mon temps libre, par curiosité : de l'aéronautique aux petits jeux vidéo.</p>
+{% if site.talkmap_link == true %}
 
-{% include project-cards.html collection="talks" %}
+<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+
+{% endif %}
+
+{% for post in site.talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}

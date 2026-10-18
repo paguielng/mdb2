@@ -1,17 +1,36 @@
 ---
-layout: single
-title: "Mes projets"
-permalink: /projets/
+layout: archive
+title: "Publications"
+permalink: /publications/
 author_profile: true
-redirect_from:
-  - /publications/
 ---
 
-<p>Voici les projets qui me tiennent le plus à cœur. Pour chacun, j'explique l'objectif, <strong>ce que j'ai fait moi-même</strong> et ce que j'en ai retenu. Cliquez sur une carte pour lire la fiche.</p>
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
 
-<h2>Projets universitaires (SAÉ)</h2>
-<p>Les SAÉ sont les situations d'apprentissage et d'évaluation du BUT GEII : des projets concrets menés en équipe, du cahier des charges jusqu'à la démonstration.</p>
-{% include project-cards.html categorie="SAÉ" %}
+{% include base_path %}
 
-<h2>Projets personnels</h2>
-{% include project-cards.html categorie="Projet personnel" %}
+<!-- New style rendering if publication categories are defined -->
+{% if site.publication_category %}
+  {% for category in site.publication_category  %}
+    {% assign title_shown = false %}
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+
+
