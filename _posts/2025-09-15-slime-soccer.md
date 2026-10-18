@@ -1,11 +1,13 @@
 ---
-title: 'Slime Soccer number'
+title: 'Slime Soccer : comment fonctionne le jeu'
 date: 2025-09-15
-permalink: /posts/2012/08/blog-post-4/
+permalink: /blog/slime-soccer/
+redirect_from:
+  - /posts/2012/08/blog-post-4/
 tags:
-  - cool posts
-  - category1
-  - category2
+  - jeu vidéo
+  - React
+  - physique
 ---
 
 Un jeu de football 2D basé sur la physique mettant en scène deux slimes qui s'affrontent sur un terrain bleu. Ce projet est une réinterprétation fidèle du classique jeu de navigateur original créé par Quin Pendragon, développée avec React et Canvas. [Cliquez ici pour jouer dès maintenant](https://rxeus.netlify.app/)

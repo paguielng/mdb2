@@ -1,6 +1,8 @@
 ---
 title: "TP08 - PROJET DE SYNTHESE"
-excerpt: "S2 Informatique embarquée STM32 NUCLEO-L476RG<br/><img src='/images/500x300.png'>"
+excerpt: "TP de synthèse d'informatique embarquée sur carte STM32 NUCLEO-L476RG (S2)"
+categorie: "Dossier technique"
+order: 3
 collection: portfolio
 ---
 {% include toc %}
@@ -21,5 +23,4 @@ Ce TP s’étendra sur 3 séances. Il s’agit d’un projet de synthèse dans l
 
 1.2 Objectifs
 ---
-**Important!** Since the data is parsed as JSON *all* of the keys will need to be quoted for the plot to render. The use of a tool like [JSONLint](https://jsonlint.com/) to check syntax is highly recommended.
-{: .notice}
+<p class="a-completer">Objectifs du TP et ce que tu as réalisé.</p>

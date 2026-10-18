@@ -1,14 +1,10 @@
 ---
-layout: archive
+layout: single
 title: "Portfolio"
 permalink: /portfolio/
 author_profile: true
 ---
 
-{% include base_path %}
+<p>Mes dossiers techniques : cahiers des charges et travaux pratiques réalisés pendant le BUT GEII.</p>
 
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
-
+{% include project-cards.html collection="portfolio" %}

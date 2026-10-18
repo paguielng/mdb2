@@ -1,11 +1,13 @@
 ---
 title: 'Arduino Rocket Guidance'
 date: 2026-03-09
-permalink: /posts/2014/08/blog-post-3/
+permalink: /blog/arduino-rocket-guidance/
+redirect_from:
+  - /posts/2014/08/blog-post-3/
 tags:
-  - cool posts
-  - category1
-  - category2
+  - fusée
+  - Arduino
+  - veille
 ---
 Rocket guidance can be achieved 2 ways, thrust vectoring and fin angling. The way I am guiding my rocket is by using thrust vectoring.
 [Arduino Rocket Guidance : 7 Steps - By Coolnventions](https://www.instructables.com/Arduino-Rocket-Guidance/?utm_source=Pinterest&utm_medium=organic)

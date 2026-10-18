@@ -1,0 +1,240 @@
+/* ==========================================================================
+   SITE WEB PROFESSIONNEL : palette, accueil, fiches projet
+   Palette volontairement reduite (bleu marine, bleu, blanc) pour
+   garder une coherence visuelle sur toutes les pages.
+   ========================================================================== */
+
+$pro-navy   : #1b2a4a;
+$pro-blue   : #2563a8;
+$pro-sky    : #e8f0fa;
+
+:root {
+  --global-base-color          : #{$pro-navy};
+  --global-link-color          : #{$pro-blue};
+  --global-link-color-hover    : #{$pro-navy};
+  --global-link-color-visited  : #{$pro-blue};
+  --global-text-color          : #2b2f36;
+  --pro-accent                 : #{$pro-blue};
+  --pro-soft-bg                : #{$pro-sky};
+  --pro-card-border            : #d6dfeb;
+}
+
+html[data-theme="dark"] {
+  --global-base-color          : #0f1a30;
+  --global-bg-color            : #0f1a30;
+  --global-footer-bg-color     : #0b1426;
+  --global-link-color          : #7fb2ec;
+  --global-link-color-hover    : #a9cbf2;
+  --global-link-color-visited  : #7fb2ec;
+  --pro-accent                 : #7fb2ec;
+  --pro-soft-bg                : #18284a;
+  --pro-card-border            : #2a3c62;
+}
+
+.btn { text-decoration: none !important; }
+
+.btn--primary {
+  background-color: var(--pro-accent);
+  &:hover { background-color: #{$pro-navy}; }
+}
+
+.btn--outline {
+  color: var(--pro-accent) !important;
+  background-color: transparent;
+  border: 2px solid var(--pro-accent) !important;
+  &:hover { color: #fff !important; background-color: var(--pro-accent); }
+}
+
+/* Accueil */
+.hero {
+  margin: 0 0 2em;
+  padding: 1.5em 1.5em 1em;
+  background: var(--pro-soft-bg);
+  border-left: 5px solid var(--pro-accent);
+  border-radius: 6px;
+
+  .hero__title {
+    margin: 0 0 0.3em;
+    font-size: 1.6em;
+    line-height: 1.25;
+  }
+
+  .hero__lead {
+    margin: 0 0 1em;
+    font-size: 1.05em;
+  }
+
+  .btn { margin-right: 0.4em; }
+}
+
+/* Grille de cartes (domaines, projets) */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.2em;
+  margin: 1em 0 2em;
+  padding: 0;
+  list-style: none;
+}
+
+.card {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--pro-card-border);
+  border-radius: 8px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(27, 42, 74, 0.15);
+  }
+
+  a { text-decoration: none; color: inherit; }
+
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+  }
+
+  .card__body { padding: 0.8em 1em 1em; }
+
+  .card__title {
+    margin: 0.2em 0 0.3em;
+    font-size: 1.05em;
+    color: var(--global-link-color);
+  }
+
+  .card__text {
+    margin: 0;
+    font-size: 0.85em;
+  }
+
+  .card__icon {
+    display: block;
+    margin-bottom: 0.3em;
+    font-size: 1.6em;
+    color: var(--pro-accent);
+  }
+}
+
+/* Etiquettes (type de projet, competences) */
+.tag {
+  display: inline-block;
+  margin: 0 0.3em 0.3em 0;
+  padding: 0.1em 0.6em;
+  font-size: 0.75em;
+  font-weight: 600;
+  color: var(--pro-accent);
+  background: var(--pro-soft-bg);
+  border-radius: 999px;
+}
+
+/* Encadre "En bref" en tete de chaque fiche projet */
+.fiche {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.8em 1.5em;
+  margin: 0 0 2em;
+  padding: 1em 1.2em;
+  font-size: 0.9em;
+  background: var(--pro-soft-bg);
+  border-radius: 6px;
+
+  div { margin: 0; }
+
+  strong {
+    display: block;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--pro-accent);
+  }
+}
+
+/* Images avec legende */
+figure.illustration {
+  margin: 1.5em 0;
+
+  img {
+    display: block;
+    max-height: 420px;
+    margin: 0 auto;
+    border-radius: 6px;
+  }
+
+  figcaption {
+    margin-top: 0.4em;
+    font-size: 0.8em;
+    font-style: italic;
+    text-align: center;
+  }
+}
+
+/* Contenu que Paguiel doit encore rediger : bien visible, a retirer avant le rendu */
+.a-completer {
+  margin: 1em 0;
+  padding: 0.7em 1em;
+  font-size: 0.9em;
+  color: #6b4500;
+  background: #fff4d6;
+  border: 2px dashed #e0a100;
+  border-radius: 6px;
+
+  &::before {
+    content: "\270F\FE0F  \C0  compl\E9 ter : ";
+    font-weight: 700;
+  }
+}
+
+/* Chronologie des experiences */
+.timeline {
+  margin: 1em 0 2em;
+  padding: 0 0 0 1.2em;
+  list-style: none;
+  border-left: 3px solid var(--pro-accent);
+
+  > li {
+    position: relative;
+    margin-bottom: 1.5em;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0.45em;
+      left: -1.65em;
+      width: 0.8em;
+      height: 0.8em;
+      background: var(--global-bg-color);
+      border: 3px solid var(--pro-accent);
+      border-radius: 50%;
+    }
+  }
+
+  .timeline__date {
+    font-size: 0.8em;
+    font-weight: 700;
+    color: var(--pro-accent);
+  }
+
+  h3 { margin: 0.1em 0 0.3em; }
+}
+
+details.cahier-des-charges {
+  margin: 2em 0;
+  padding: 0.6em 1em;
+  border: 1px solid var(--pro-card-border);
+  border-radius: 6px;
+
+  summary { cursor: pointer; font-weight: 700; }
+}
+
+span.a-completer {
+  display: inline;
+  margin: 0;
+  padding: 0.05em 0.35em;
+  border-width: 1px;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
