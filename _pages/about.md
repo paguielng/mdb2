@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Étudiant en GEII, passionné d'électronique"
+title: "Bienvenue sur mon site"
 author_profile: true
 redirect_from: 
   - /about/
