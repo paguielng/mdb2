@@ -47,3 +47,15 @@ Dans mon travail, j'ai l'habitude d'utiliser certains outils :
 - [Wokwi](https://wokwi.com/) pour simuler des ESP32 en ligne
 - [MATLAB](https://www.mathworks.com/products/matlab.html) pour les simulations
 - [Fusion 360](https://www.autodesk.com/fr/products/fusion-360/overview/) pour la modélisation CAO
+
+<style>
+  .feature__wrapper .archive__item-title {
+    font-size: 1em;
+    white-space: nowrap;
+  }
+  .feature__wrapper .archive__item-excerpt p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+</style>
