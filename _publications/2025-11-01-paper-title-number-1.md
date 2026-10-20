@@ -79,3 +79,57 @@ La Base Roulante (robot) doit avoir une autonomie d'au moins 30 minutes avec une
    ---
 - Partie électronique du projet
 - Partie Numérique du projet
+
+{% include base_path %}
+
+## Réalisation
+
+### Conception de la carte
+
+<div class="activite-bloc">
+<div class="activite-texte" markdown="1">
+Avec Martin Chevrollier, nous avons suivi le cycle en V : cahier d'exigences, analyse fonctionnelle, dimensionnement, mise en œuvre puis tests.
+
+Notre carte, dessinée sous KiCad, alimente en 5 V les deux capteurs infrarouges, compare leur tension à un seuil réglable et commande les deux moteurs : l'un par un transistor bipolaire, l'autre par un MOSFET.
+</div>
+<figure class="activite-image">
+  <img src="{{ base_path }}/images/projets/robot-mobile/robot-mobile.jpg" alt="Base roulante du Robot Mobile, deux roues motrices et une roue libre">
+  <figcaption>La base roulante du Robot Mobile</figcaption>
+</figure>
+</div>
+
+<div class="activite-photos schemas">
+  <figure>
+    <img src="{{ base_path }}/images/projets/robot-mobile/schema-electrique.png" alt="Schéma électrique de la détection de ligne et de la commande des moteurs">
+    <figcaption>Schéma électrique sous KiCad</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ base_path }}/images/projets/robot-mobile/calcul-seuil.jpg" alt="Calcul manuscrit des résistances du seuil de comparaison">
+    <figcaption>Calcul des résistances du seuil</figcaption>
+  </figure>
+</div>
+
+Dimensionnement : le seuil de comparaison est réglé à 2,6 V, environ au milieu du potentiomètre, ce que la simulation a confirmé avant la soudure.
+{: .notice}
+
+### Fabrication et tests
+
+<div class="activite-bloc">
+<div class="activite-texte" markdown="1">
+Chaque fonction a été soudée puis testée seule, avec une fiche de test. L'alimentation donne bien 5 V, et en cas d'inversion de polarité la carte reste protégée. Les capteurs donnent environ 4,9 V sur fond clair et 0 V sur fond foncé, comme prévu.
+
+Nous n'avons pas eu le temps de finir toutes les soudures, mais un moteur a tourné sur notre carte.
+</div>
+<figure class="activite-image">
+  <img class="activite-image" src="{{ base_path }}/images/projets/robot-mobile/carte-3d.png" alt="Vue 3D de la carte du Robot Mobile">
+  <figcaption>Vue 3D de notre carte</figcaption>
+</figure>
+</div>
+
+Dépannage : les LED des capteurs ne s'allumaient pas. La cause était une mauvaise soudure ; nous les avons remplacées en respectant leur sens.
+{: .notice}
+
+Bilan : coût estimé à 452,83 € pour 100 cartes (composants et circuit imprimé). Sans les moteurs, la carte consomme 40,4 mA.
+{: .notice}
+
+{% include style-blocs.html %}
