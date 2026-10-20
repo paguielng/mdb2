@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Bienvenue sur mon site"
+title: "Bienvenue dans mon garage"
 author_profile: true
 redirect_from: 
   - /about/
