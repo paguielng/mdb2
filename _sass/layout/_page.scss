@@ -51,8 +51,19 @@
 .page__content {
 
   h2 {
+    margin-top: 1.4em;
     padding-bottom: 0.5em;
     border-bottom: 1px solid var(--global-border-color);
+  }
+
+  /* tighter spacing between headings */
+  h3 {
+    margin-top: 1.2em;
+  }
+
+  > h2:first-child,
+  h2 + h3 {
+    margin-top: 0.6em;
   }
 
   p, li, dl {

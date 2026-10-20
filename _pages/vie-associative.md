@@ -16,7 +16,7 @@ En 2024-2025, en parallèle de ma Terminale au Lycée Saint-Sernin, j'ai été m
 
 Chaque semaine, j'accompagnais un élève de Grande Section dans ses apprentissages et son bien-être à l'école. L'association m'a remis une attestation indiquant que j'ai « donné entière satisfaction ».
 </div>
-<img class="activite-image" src="{{ base_path }}/images/vie-associative/afev-logo.png" alt="Logo de l'AFEV Toulouse">
+<img class="activite-image" src="{{ base_path }}/images/vie-associative/afev-logo-recadre.png" alt="Logo de l'AFEV Toulouse">
 </div>
 
 <div class="activite-photos">
@@ -99,6 +99,23 @@ Le basket, et en particulier le format 3x3, demande beaucoup de communication, d
   .activite-image,
   .activite-image img {
     width: 100%;
+  }
+  img.activite-image {
+    max-height: 180px;
+    object-fit: contain;
+    object-position: center;
+  }
+  @media (max-width: 600px) {
+    .activite-image {
+      flex-basis: 100%;
+    }
+    img.activite-image {
+      max-height: 110px;
+    }
+    .activite-bloc figcaption,
+    .activite-photos figcaption {
+      white-space: normal;
+    }
   }
   .activite-photos {
     display: flex;
