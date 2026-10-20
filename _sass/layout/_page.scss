@@ -59,6 +59,11 @@
     font-size: 1em;
   }
 
+  /* references and useful links, same size as the notices */
+  .sources {
+    font-size: $type-size-6;
+  }
+
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
