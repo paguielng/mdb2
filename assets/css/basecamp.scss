@@ -616,3 +616,25 @@ html, body { overflow-x: clip; }
   text-decoration: none !important;
   &:hover { background: var(--bc-ink); color: #fff; }
 }
+
+/* boutons de partage : couleurs des plateformes, logo et texte blancs */
+.page__share .btn {
+  margin: 0 6px 6px 0;
+  padding: 6px 16px;
+  border: 0;
+  color: #fff;
+  font-size: 13px;
+  &:hover { color: #fff; filter: brightness(0.9); }
+}
+.page__share .btn--bluesky { background: #1185fe; }
+.page__share .btn--facebook { background: #1877f2; }
+.page__share .btn--linkedin { background: #0a66c2; }
+.page__share .btn--mastodon { background: #6364ff; }
+.page__share .btn--x { background: #000; }
+
+/* CV : titres cliquables toujours en bleu */
+.archive ul .archive__item-title a,
+.archive ul .archive__item-title a:visited {
+  color: var(--bc-blue);
+  text-decoration: underline;
+}
