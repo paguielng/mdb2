@@ -26,7 +26,7 @@ Chaque semaine, j'accompagnais un élève de Grande Section dans ses apprentissa
   </figure>
   <figure>
     <img src="{{ base_path }}/images/vie-associative/afev-atelier.png" alt="Élèves et bénévoles de l'AFEV masqués dans une salle de classe">
-    <figcaption>Avec l'AFEV, je suis tout à droite</figcaption>
+    <figcaption>École primaire publique Alexandre Fourtanier · moi à droite</figcaption>
   </figure>
 </div>
 
@@ -47,7 +47,7 @@ Le basket, et en particulier le format 3x3, demande beaucoup de communication, d
 </div>
 
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700&display=swap');
   .activite-bloc {
     display: flex;
     flex-wrap: wrap;
@@ -61,8 +61,9 @@ Le basket, et en particulier le format 3x3, demande beaucoup de communication, d
   }
   .activite-bloc figcaption,
   .activite-photos figcaption {
-    font-family: 'Figtree', sans-serif;
-    font-size: 0.8em;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 700;
+    font-size: 0.72em;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -84,6 +85,7 @@ Le basket, et en particulier le format 3x3, demande beaucoup de communication, d
   }
   .activite-photos figure {
     flex: 1 1 260px;
+    min-width: 0;
     margin: 1em 0;
   }
   .activite-photos img {
