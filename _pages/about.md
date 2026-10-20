@@ -1,7 +1,8 @@
 ---
 permalink: /
 title: "Bienvenue dans mon garage"
-author_profile: true
+layout: splash
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
@@ -29,33 +30,40 @@ feature_row:
     btn_class: "btn--primary"
 ---
 
+{% include base_path %}
+
+<section class="bc-hero">
+  <img class="bc-hero__photo" src="{{ base_path }}/images/{{ site.author.avatar }}" alt="Photo de {{ site.author.name }}">
+  <h1 class="bc-hero__title">Bienvenue dans mon garage</h1>
+<div class="bc-hero__text" markdown="1">
 Je suis [Paguiel Nganji](https://www.linkedin.com/in/paguiel-nganji/), étudiant en **Génie électrique et informatique industrielle**, et je suis passionné par le fonctionnement des systèmes. Je me spécialise dans l'électronique, l'informatique embarquée et l'automatisme industriel.
 
 Ce site présente mes travaux universitaires et mes projets personnels. Vous trouverez d'autres exemples de mon travail sur mon [profil GitHub](https://github.com/paguielng), comme des projets expérimentaux et de petits gadgets électroniques. Chaque projet est l'occasion d'apprendre une nouvelle façon de réfléchir et de faire les choses.
+</div>
+  <p class="bc-hero__actions">
+    <a class="btn btn--primary" href="{{ base_path }}/publications/">Voir mes projets</a>
+    <a class="bc-link" href="{{ base_path }}/cv/">Lire mon CV</a>
+  </p>
+</section>
 
-Mes projets phares
-======
+<section class="bc-section">
+  <h2 class="bc-section__title">Mes projets phares</h2>
+  {% include feature_row %}
+</section>
 
-{% include feature_row %}
+<section class="bc-band">
+<div class="bc-band__inner" markdown="1">
+## Mes outils
 
-Mes outils
-======
 Dans mon travail, j'ai l'habitude d'utiliser certains outils :
+{: .bc-band__lead}
+
 - [C/C++](https://isocpp.org/) pour les applications embarquées où les performances sont cruciales
 - [KiCad](https://www.kicad.org/) pour schématiser les circuits électroniques
 - [Git/GitHub](https://github.com/paguielng/) pour gérer mes projets
 - [Wokwi](https://wokwi.com/) pour simuler des ESP32 en ligne
 - [MATLAB](https://www.mathworks.com/products/matlab.html) pour les simulations
 - [Fusion 360](https://www.autodesk.com/fr/products/fusion-360/overview/) pour la modélisation CAO
-
-<style>
-  .feature__wrapper .archive__item-title {
-    font-size: 1em;
-    white-space: nowrap;
-  }
-  .feature__wrapper .archive__item-excerpt p {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-</style>
+{: .bc-checks}
+</div>
+</section>
