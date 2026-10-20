@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Formation
 ======
 * Bachelor universitaire de technologie, Université de Toulouse (en cours)
 * Baccalauréat - Mathématiques, Informatique et physique-chimie, Lycée St. Sernin, 2025
@@ -17,7 +17,7 @@ Education
 * BIA - Brevet d'Initiation Aéronautique, Collège Toulouse-Lautrec, 2022
 * Premiers secours Civiques de niveau 1 (PSC1), 2022
 
-Work experience
+Expériences
 ======
 * Fabriquet: Fablab Planète Science Occitanie
   * Campagnes de lancements
@@ -32,7 +32,7 @@ Work experience
   * Thales Solidarity : Pl. de la Défense (Thales Group)
   * Vocations des jeunes pour les STEM
   
-Skills
+Compétences
 ======
 <div class="skills-wrapper">
 
@@ -43,21 +43,21 @@ Skills
             <span>C / C++/ web3</span>
             <!-- Sous-compétences pour C/C++ -->
             <ul class="sub-skills">
-                <li>Object-Oriented Programming (OOP)</li>
-                <li>Memory Management (Pointers)</li>
-                <li>Low-Level Programming (Hardware)</li>
-                <li>Responsive HTML, CSS and JS web pages.</li>
+                <li>Programmation orientée objet (POO)</li>
+                <li>Gestion de la mémoire (pointeurs)</li>
+                <li>Programmation bas niveau (matériel)</li>
+                <li>Pages web responsives en HTML, CSS et JS</li>
             </ul>
         </li>
 
         <!-- Compétence Principale 2 -->
         <li>
             <i class="fas fa-microchip"></i>
-            <span>Electronics & Hardware</span>
+            <span>Électronique et matériel</span>
             <ul class="sub-skills">
                 <li>Arduino / ESP32</li>
-                <li>Signal analysis (Oscilloscope)</li>
-                <li>Schematic & PCB Design</li>
+                <li>Analyse de signaux (oscilloscope)</li>
+                <li>Conception de schémas et de PCB</li>
                 <li>Simulation : Proteus/KICAD</li>
             </ul>
         </li>
@@ -65,10 +65,10 @@ Skills
         <!-- Compétence Principale 3 -->
         <li>
             <i class="fas fa-robot"></i>
-            <span>Robotics & Automation</span>
+            <span>Robotique et automatisme</span>
             <ul class="sub-skills">
-                <li>Motor & Servomotor Control</li>
-                <li>Sensors (IMU, Ultrasound)</li>
+                <li>Commande de moteurs et servomoteurs</li>
+                <li>Capteurs (centrale inertielle, ultrasons)</li>
                 <li>TIA Portal (Siemens)</li>
                 <li>Control Expert (Schneider Electric)</li>
             </ul>
@@ -80,9 +80,9 @@ Skills
             <span>Python</span>
             <!-- Sous-compétences pour Python -->
             <ul class="sub-skills">
-                <li>Scripting & Automation</li>
-                <li>Data Analysis (Matplotlib, NumPy)</li>
-                <li>Serial Communication with Microcontrollers</li>
+                <li>Scripts et automatisation</li>
+                <li>Analyse de données (Matplotlib, NumPy)</li>
+                <li>Communication série avec des microcontrôleurs</li>
                 <li>Microsoft/ Pack Office</li>
             </ul>
         </li>
@@ -133,28 +133,18 @@ Skills
 </style>
 
 
-Publications
+Projets
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Loisirs
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
+Langues
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Languages
-======
-<ul><em>French (native), English (B2)</em></ul>
-
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+<ul><em>Français (langue maternelle), anglais (B2)</em></ul>
