@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "A logbook of my work"
+title: "Le carnet de bord de mes travaux"
 author_profile: true
 redirect_from: 
   - /about/
