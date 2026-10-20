@@ -3,10 +3,10 @@ title: "Projet SAE SMARTCAR 3"
 collection: publications
 category: manuscripts
 permalink: /publication/2026-01-01-paper-title-number-3
-excerpt: 'Ce projet traite le Cahier des charges : SMARTCAR (Électronique).'
+excerpt: 'Cette page traite le Cahier des charges : SMARTCAR (Électronique).'
 date: 2026-01-01
 venue: 'Journal 1'
-membres: 'Paguiel, Pierre'
+membres: 'Paguiel Nganji, Pierre Gazeau'
 slidesurl: 'https://paguielng.github.io/mdb2/files/slides3.pdf'
 paperurl: 'https://paguielng.github.io/mdb2/files/paper3.pdf'
 citation: 'Paguiel, Pierre. (2026). &quot;S2 SAE SMARTCAR 3.&quot; <i>Journal 1</i>. 1(3).'

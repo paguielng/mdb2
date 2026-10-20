@@ -3,10 +3,10 @@ title: "Projet Line Tracker 2"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-12-01-paper-title-number-2
-excerpt: 'Ce projet traite le Cahier des charges : Line Tracker (Informatique).'
+excerpt: 'Cette page traite le Cahier des charges : Line Tracker (Informatique).'
 date: 2025-12-01
 venue: 'Journal 1'
-membres: 'Paguiel, Martin'
+membres: 'Paguiel Nganji, Martin Chevrollier'
 slidesurl: 'https://paguielng.github.io/mdb2/files/slides2.pdf'
 paperurl: 'https://paguielng.github.io/mdb2/files/paper2.pdf'
 citation: 'Paguiel, Martin. (2025). &quot;Projet Line Tracker 2.&quot; <i>Journal 1</i>. 1(2).'
