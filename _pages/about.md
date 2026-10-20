@@ -1,49 +1,61 @@
 ---
 permalink: /
-title: "Le carnet de bord de mes travaux"
+title: "Bienvenue dans mon garage"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+feature_row:
+  - image_path: accueil/chaine-de-production.jpg
+    alt: "Chaîne de production automatisée en salle de TP"
+    title: "Chaîne de production"
+    excerpt: "SAE automatisme et informatique industrielle, avec mon cahier de laboratoire."
+    url: "/publication/2026-06-01-paper-title-number-4"
+    btn_label: "Voir le projet"
+    btn_class: "btn--primary"
+  - image_path: accueil/line-tracker.jpg
+    alt: "Robot suiveur de ligne avec sa carte Raspberry Pi"
+    title: "Line Tracker"
+    excerpt: "SAE informatique : un robot qui suit une ligne au sol."
+    url: "/publication/2025-12-01-paper-title-number-2"
+    btn_label: "Voir le projet"
+    btn_class: "btn--primary"
+  - image_path: accueil/micro-fusee.jpg
+    alt: "Micro-fusée tenue en main avant le lancement"
+    title: "Micro-fusée"
+    excerpt: "Projet personnel : conception, simulation et premier vol."
+    url: "/talks/2012-03-01-talk-1"
+    btn_label: "Voir le projet"
+    btn_class: "btn--primary"
 ---
 
-Je suis [Paguiel Nganji](https://www.linkedin.com/in/paguiel-nganji/), Je suis étudiant en **Génie électrique et informatique industrielle**,  et je suis passionné par le fonctionnement des système. Je me spécialise dans l'électronique, l'informatique embarquée et l'Automatisme industrielle.
+Je suis [Paguiel Nganji](https://www.linkedin.com/in/paguiel-nganji/), étudiant en **Génie électrique et informatique industrielle**, et je suis passionné par le fonctionnement des systèmes. Je me spécialise dans l'électronique, l'informatique embarquée et l'automatisme industriel.
 
- Cette page présente mes travaux académiques universitaire et des projets personnels.
-  
-  Vous trouverez des exemples de mon travail sur mon [profil Github](https://github.com/paguielng), tels que des projets experimentaux et de petits gadgets électroniques. Chaque projet est l'occasion d'apprendre une nouvelle façon de réfléchir et de faire les choses.
+Ce site présente mes travaux universitaires et mes projets personnels. Vous trouverez d'autres exemples de mon travail sur mon [profil GitHub](https://github.com/paguielng), comme des projets expérimentaux et de petits gadgets électroniques. Chaque projet est l'occasion d'apprendre une nouvelle façon de réfléchir et de faire les choses.
 
-Mes outils et ressources
+Mes projets phares
 ======
-Dans mon travail, j'ai l'habitude d'utiliser certains outils populaires :
-- [C/C++](https://isocpp.org/) pour les applications embarquées où les performances sont cruciales.
+
+{% include feature_row %}
+
+Mes outils
+======
+Dans mon travail, j'ai l'habitude d'utiliser certains outils :
+- [C/C++](https://isocpp.org/) pour les applications embarquées où les performances sont cruciales
 - [KiCad](https://www.kicad.org/) pour schématiser les circuits électroniques
 - [Git/GitHub](https://github.com/paguielng/) pour gérer mes projets
-- [Wokwi](https://wokwi.com/) pour le simulateur ESP32 en ligne
-- [MatLab](https://www.mathworks.com/products/matlab.html/) pour les simulations informatiques
-- [MathJax](https://www.mathjax.org/) pour les équations mathématiques
-- [Fusion360](https://www.autodesk.com/fr/products/fusion-360/overview/) pour la modélisation CAO
+- [Wokwi](https://wokwi.com/) pour simuler des ESP32 en ligne
+- [MATLAB](https://www.mathworks.com/products/matlab.html) pour les simulations
+- [Fusion 360](https://www.autodesk.com/fr/products/fusion-360/overview/) pour la modélisation CAO
 
-Getting started
-======
-1. Dans la section Projets (Conférences), vous trouverez certains de mes projets personnels et universitaires (mentionnés !)
-1. Dans [Ressources](https://github.com/paguielng/GarageMaker) en cliquant sur le bouton « Sources utilisées » en bas. 
-1. Accédez aux paramètres du projet (élément le plus à droite dans les onglets commençant par « Code », qui devrait se trouver sous « Ne plus surveiller »). Renommez le référentiel « [votre nom d'utilisateur GitHub].github.io », qui sera également l'URL de votre site web.
-1. Définissez la configuration du site et créez du contenu et des métadonnées (voir ci-dessous -- voir également [cet ensemble de différences](https://archive.is/3TPas) montrant quels fichiers ont été modifiés pour configurer [un site exemple](https://getorg-testacct.github.io) pour un utilisateur avec le nom d'utilisateur « getorg-testacct »).
-1. Téléchargez tous les fichiers (tels que les PDF, les fichiers .zip, etc.) dans le répertoire files/. Ils apparaîtront à l'adresse https://[votre nom d'utilisateur GitHub].github.io/files/example.pdf.
-1. Vérifiez l'état en accédant aux paramètres du référentiel, dans la section « Pages GitHub ».
-
-Configuration à l'échelle du site
-------
-Pour le contenu du site, les mêmes données structurées sur une conférence sont utilisées pour générer la liste des conférences sur la [page Talks](https://academicpages.github.io/talks), chaque [page individuelle](https://academicpages.github.io/talks/2012-03-01-talk-1) pour des conférences spécifiques, la section conférences de la [page CV] (https://academicpages.github.io/cv) et la [carte des lieux où vous avez donné une conférence](https://academicpages.github.io/talkmap.html) (si vous exécutez ce [fichier python](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) ou [cahier Jupyter](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), qui crée le code HTML de la carte à partir du contenu du répertoire _talks).
-
-Example: editing a Markdown file for a project
-
----
-<img src="https://github.com/paguielng/mdb2/blob/master/images/1779986999545.gif?raw=true"
-     alt="Editing a Markdown file for a talk"
-     width="400">
-
-Pour plus d'informations
-------
-Pour plus d'informations sur mes projets et publications, consultez [le guide](https://academicpages.github.io/markdown/), le [wiki en constante évolution](https://github.com/academicpages/academicpages.github.io/wiki), et vous pouvez toujours [poser une question sur GitHub](https://github.com/academicpages/academicpages.github.io/discussions). Les [guides pour le thème Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (dont ce thème est dérivé) peuvent également vous être utiles.
+<style>
+  .feature__wrapper .archive__item-title {
+    font-size: 1em;
+    white-space: nowrap;
+  }
+  .feature__wrapper .archive__item-excerpt p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+</style>
