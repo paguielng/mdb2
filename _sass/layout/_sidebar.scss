@@ -95,6 +95,9 @@
 
   img {
     max-width: 175px;
+    // keep a perfect circle for non-square photos
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
     border-radius: 50%;
 
     @include breakpoint($large) {

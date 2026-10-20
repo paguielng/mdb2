@@ -23,7 +23,7 @@ repository               : "paguielng.github.io/mdb2/"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "photo-profil.png"
   name             : "Paguiel NGANJI"
   pronouns         : # example: "He/him"  
   bio              : "Génie Électrique Informatique Industrielle"
