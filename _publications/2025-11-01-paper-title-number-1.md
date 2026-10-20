@@ -3,9 +3,10 @@ title: "Projet Robot Mobile 1"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-11-01-paper-title-number-1
-excerpt: 'Cet article traite le Cahier des charges : Robot Mobile (Électronique).'
+excerpt: 'Ce projet traite le Cahier des charges : Robot Mobile (Électronique).'
 date: 2025-11-01
 venue: 'Journal 1'
+membres: 'Paguiel, Martin'
 slidesurl: 'https://paguielng.github.io/mdb2/files/slides1.pdf'
 paperurl: 'https://paguielng.github.io/mdb2/files/paper1.pdf'
 bibtexurl: 'https://paguielng.github.io/mdb2/files/bibtex1.bib'

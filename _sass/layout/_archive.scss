@@ -48,6 +48,15 @@
   }
 }
 
+/* project year shown next to the title */
+.archive__item-annee {
+  margin-left: 0.4em;
+  font-size: $type-size-6;
+  font-weight: normal;
+  color: var(--global-text-color-light);
+  white-space: nowrap;
+}
+
 /* remove border*/
 .page__content {
 
