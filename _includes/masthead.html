@@ -1,26 +1,24 @@
 {% include base_path %}
 
-<div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><span class="navicon"></span></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+<header class="bc-header">
+  <div class="bc-header__inner">
+    <a class="bc-logo" href="{{ base_path }}/">
+      <span class="bc-logo__icon" aria-hidden="true"><i class="fa-solid fa-screwdriver-wrench"></i></span>
+      <strong class="bc-logo__name">{{ site.title }}</strong>
+      <span class="bc-logo__tagline">{{ site.author.bio }}</span>
+    </a>
+
+    <nav class="bc-nav" aria-label="Menu principal">
+      <button class="bc-nav__toggle" type="button" aria-expanded="false" aria-controls="bc-nav-list"
+              onclick="var n=this.parentNode;n.classList.toggle('is-open');this.setAttribute('aria-expanded',n.classList.contains('is-open'))">Menu</button>
+        <ul class="bc-nav__list" id="bc-nav-list">
           {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-            {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
+            <li class="bc-nav__item{% if forloop.last %} bc-nav__item--cta{% endif %}">
+              <a href="{{ domain }}{{ link.url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
+            </li>
           {% endfor %}
-          <li id="theme-toggle" class="masthead__menu-item persist tail">
-            <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
-          </li>
         </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
+    </nav>
   </div>
-</div>
+</header>
