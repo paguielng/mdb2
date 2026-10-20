@@ -63,7 +63,7 @@ Le basket, et en particulier le format 3x3, demande beaucoup de communication, d
   .activite-photos figcaption {
     font-family: 'Bricolage Grotesque', sans-serif;
     font-weight: 700;
-    font-size: 0.72em;
+    font-size: 0.8125em;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
