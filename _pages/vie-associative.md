@@ -12,11 +12,9 @@ author_profile: true
 
 <div class="activite-bloc">
 <div class="activite-texte" markdown="1">
-Pendant toute l'année scolaire 2024-2025, en parallèle de ma Terminale au Lycée Saint-Sernin, je me suis engagé comme mentor bénévole avec l'[AFEV](https://afev.org/) (Association de la fondation étudiante pour la ville), dans le cadre de son programme de **mentorat lycéen** à Toulouse.
+En 2024-2025, en parallèle de ma Terminale au Lycée Saint-Sernin, j'ai été mentor bénévole avec l'[AFEV](https://afev.org/) (Association de la fondation étudiante pour la ville), dans son programme de **mentorat lycéen** à Toulouse.
 
-Chaque semaine, je retrouvais un élève de Grande Section dans une école primaire pour l'accompagner dans ses apprentissages et son bien-être à l'école. Ce mentorat individuel, suivi sur toute l'année, est encadré par l'association, agréée « Association éducative complémentaire de l'enseignement public » par le Ministère de l'Éducation nationale.
-
-Mon engagement a fait l'objet d'une attestation intermédiaire en avril 2025, puis d'une attestation de fin d'année en mai 2025, dans laquelle l'association indique que j'ai « donné entière satisfaction ».
+Chaque semaine, j'accompagnais un élève de Grande Section dans ses apprentissages et son bien-être à l'école. L'association m'a remis une attestation indiquant que j'ai « donné entière satisfaction ».
 </div>
 <img class="activite-image" src="{{ base_path }}/images/vie-associative/afev-logo.png" alt="Logo de l'AFEV Toulouse">
 </div>
@@ -24,11 +22,11 @@ Mon engagement a fait l'objet d'une attestation intermédiaire en avril 2025, pu
 <div class="activite-photos">
   <figure>
     <img src="{{ base_path }}/images/vie-associative/afev-benevoles.png" alt="Trois bénévoles de l'AFEV devant une affiche « Être utile contre les inégalités »">
-    <figcaption>Des bénévoles de l'AFEV présentent l'association. Photo : La Dépêche du Midi.</figcaption>
+    <figcaption>Bénévoles de l'AFEV · Photo : La Dépêche du Midi</figcaption>
   </figure>
   <figure>
     <img src="{{ base_path }}/images/vie-associative/afev-atelier.png" alt="Élèves et bénévoles de l'AFEV masqués dans une salle de classe">
-    <figcaption>Avec les élèves et les bénévoles de l'AFEV. Je suis tout à droite.</figcaption>
+    <figcaption>Avec l'AFEV, je suis tout à droite</figcaption>
   </figure>
 </div>
 
@@ -44,11 +42,12 @@ Le basket, et en particulier le format 3x3, demande beaucoup de communication, d
 </div>
 <figure class="activite-image">
   <img src="{{ base_path }}/images/vie-associative/basket-hoops-factory.png" alt="Joueurs réunis devant le logo Hoops Factory pour un tournoi de basket 3x3">
-  <figcaption>Tournoi de basket 3x3 entreprise 2022 au Hoops Factory. Photo : Hoops Factory.</figcaption>
+  <figcaption>Tournoi 3x3 · Photo : Hoops Factory</figcaption>
 </figure>
 </div>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500&display=swap');
   .activite-bloc {
     display: flex;
     flex-wrap: wrap;
@@ -58,6 +57,16 @@ Le basket, et en particulier le format 3x3, demande beaucoup de communication, d
   }
   .activite-texte {
     flex: 1 1 320px;
+    text-align: justify;
+  }
+  .activite-bloc figcaption,
+  .activite-photos figcaption {
+    font-family: 'Figtree', sans-serif;
+    font-size: 0.8em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
   }
   .activite-image {
     flex: 0 1 40%;
