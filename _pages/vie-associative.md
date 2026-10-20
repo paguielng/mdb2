@@ -30,6 +30,28 @@ Chaque semaine, j'accompagnais un élève de Grande Section dans ses apprentissa
   </figure>
 </div>
 
+### Membre du FabRiquet, fablab de Ramonville-Saint-Agne
+
+<div class="activite-bloc">
+<div class="activite-texte" markdown="1">
+Je suis membre du [FabRiquet](https://fabriquet.fab-manager.com/#!/), le fablab de Planète Sciences Occitanie à Ramonville-Saint-Agne. C'est là que j'ai fabriqué ma minifusée.
+
+J'y conçois mes propres projets, je demande conseil aux autres membres et j'apprends au contact de professionnels. C'est un lieu où je passe de l'idée à l'objet réel, en progressant à chaque étape.
+</div>
+<img class="activite-image" src="{{ base_path }}/images/vie-associative/fabriquet-logo.png" alt="Logos de Planète Sciences Occitanie et du FabRiquet">
+</div>
+
+<div class="activite-photos">
+  <figure>
+    <img src="{{ base_path }}/images/vie-associative/fablab-conseils.jpg" alt="Un membre du fablab me montre un circuit imprimé à l'atelier électronique">
+    <figcaption>Conseils sur un circuit imprimé au FabRiquet</figcaption>
+  </figure>
+  <figure>
+    <img style="object-position: center 25%;" src="{{ base_path }}/images/vie-associative/fablab-minifusee.jpg" alt="Je pose la main sur ma minifusée noire et jaune dans le fablab">
+    <figcaption>Ma minifusée au FabRiquet</figcaption>
+  </figure>
+</div>
+
 ## Vie sportive
 
 ### Basket
