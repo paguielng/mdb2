@@ -47,8 +47,8 @@ J'y conçois mes propres projets, je demande conseil aux autres membres et j'app
     <figcaption>Conseils sur un circuit imprimé au FabRiquet</figcaption>
   </figure>
   <figure>
-    <img style="object-position: center 25%;" src="{{ base_path }}/images/vie-associative/fablab-minifusee.jpg" alt="Je pose la main sur ma minifusée noire et jaune dans le fablab">
-    <figcaption>Ma minifusée au FabRiquet</figcaption>
+    <img src="{{ base_path }}/images/vie-associative/fabriquet-salle.jpg" alt="La grande salle du FabRiquet avec ses tables de travail et le logo sur le mur">
+    <figcaption>Le FabRiquet · Photo : Au boulot cocotte</figcaption>
   </figure>
 </div>
 
