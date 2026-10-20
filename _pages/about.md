@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Le carnet de bord de mes travaux"
+title: "Étudiant en GEII, passionné d'électronique"
 author_profile: true
 redirect_from: 
   - /about/
