@@ -94,3 +94,54 @@ La voiture doit avoir une autonomie d'au moins 30 minutes avec une batterie de 6
 - Partie Numérique du projet
 - Dossier de conception (cahier de laboratoire + documentation technique + simulations)
 - Dossier de fabrication (cahier de fabrication + fichiers GERBER + fichier PROTEUS)
+
+{% include base_path %}
+
+## Réalisation
+
+### Partie électronique
+
+<div class="activite-bloc">
+<div class="activite-texte" markdown="1">
+Avec Pierre Gazeau, nous avons conçu une carte shield qui se branche sur une carte Nucleo STM32 et se loge sur le toit de la voiture.
+
+Nous avons dimensionné, simulé sous Proteus puis testé chaque fonction : alimentation, détection de distance avant et arrière, capteurs de luminosité et de température, générateur audio à NE555 et mesure du niveau de batterie.
+</div>
+<figure class="activite-image">
+  <img src="{{ base_path }}/images/projets/smartcar/smartcar.jpg" alt="La voiture SMARTCAR avec sa carte électronique montée sur le toit">
+  <figcaption>Notre SMARTCAR avec sa carte shield</figcaption>
+</figure>
+</div>
+
+Dépannage : le niveau de batterie mesuré valait 3,4 V au lieu de 3,3 V. Un arrondi dans nos calculs avait faussé les résistances ; après recalcul, nous avons soudé R4 = 18 kΩ et R40 = 3,3 kΩ.
+{: .notice}
+
+### Partie informatique embarquée
+
+<div class="activite-bloc">
+<div class="activite-texte" markdown="1">
+J'ai programmé la carte en C++ sous PlatformIO. Le joystick de l'application RemoteXY pilote la direction et la vitesse par des signaux PWM, avec une zone morte de 10&nbsp;% au centre.
+
+Le programme gère aussi le bargraphe de batterie, les bips du buzzer selon la distance de l'obstacle, les phares automatiques, le freinage anticollision et l'affichage de la température.
+</div>
+<figure class="activite-image">
+  <img src="{{ base_path }}/images/projets/smartcar/application-remotexy.png" alt="Interface RemoteXY sur smartphone avec joystick et bargraphe de batterie">
+  <figcaption>L'application de pilotage sur smartphone</figcaption>
+</figure>
+</div>
+
+<div class="activite-photos schemas">
+  <figure>
+    <img src="{{ base_path }}/images/projets/smartcar/carte-shield-3d.jpg" alt="Vue 3D de la carte shield de la SMARTCAR">
+    <figcaption>Vue 3D de la carte shield</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ base_path }}/images/projets/smartcar/pwm-oscilloscope.png" alt="Signaux PWM de propulsion relevés à l'oscilloscope">
+    <figcaption>Signaux PWM de propulsion à l'oscilloscope</figcaption>
+  </figure>
+</div>
+
+Bilan : coût estimé à 1 287,41 € pour 100 cartes. La carte consomme 86,65 mA, soit environ 30 h d'autonomie voiture à l'arrêt avec une batterie de 2600 mAh.
+{: .notice}
+
+{% include style-blocs.html %}
