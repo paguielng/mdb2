@@ -2,94 +2,98 @@
 layout: archive
 title: "CV"
 permalink: /cv/
-author_profile: true
 redirect_from:
   - /resume
 ---
 
 {% include base_path %}
 
+Profil
+======
+Étudiant en 2e année de BUT GEII, parcours Électronique et Systèmes Embarqués. Je mesure, je teste et je valide : oscilloscope, multimètre, calcul d'incertitudes, validation de systèmes embarqués en cycle en V.
+
+Je recherche un **stage de technicien de 10 semaines minimum dès avril 2027**, ou une **alternance pour ma 3e année de BUT dès septembre 2027**, en électronique, systèmes embarqués ou automatisme.
+
 Formation
 ======
-* Bachelor universitaire de technologie, Université de Toulouse (en cours)
-* Baccalauréat - Mathématiques, Informatique et physique-chimie, Lycée St. Sernin, 2025
-* Stage de 3ème en ingénierie aéronautique, ISAE SUPAERO, 2022
-* BIA - Brevet d'Initiation Aéronautique, Collège Toulouse-Lautrec, 2022
-* Premiers secours Civiques de niveau 1 (PSC1), 2022
+* **sept. 2025 – présent** · BUT Génie Électrique et Informatique Industrielle, Université de Toulouse
+  * Parcours Électronique et Systèmes Embarqués : conception, programmation, automatisme, instrumentation, réseaux industriels. Diplôme prévu en juin 2028.
+  * Chaîne de mesure : incertitudes de type A (répétabilité) et de type B (tolérances, résolution des CAN/CNA).
+  * Habilitation électrique (1re année) ; maintenance (2e année) : AMDEC, analyse des défaillances, fiabilité et sécurité des systèmes.
+* **juin 2025** · Baccalauréat général, spécialités Mathématiques et NSI, Lycée Saint-Sernin, Toulouse
+* **juin 2022** · Brevet d'Initiation Aéronautique (BIA), Académie de Toulouse
+* **2022** · Premiers secours civiques de niveau 1 (PSC1)
 
 Expériences
 ======
-* Fabriquet: Fablab Planète Science Occitanie
-  * Campagnes de lancements
-  * Lancement d’une micro-fusée et initiation à la modélisation 3D
 
-* Bénévolat: Accompagnant éducatif
-  * AFEV – École primaire
-  * Soutien devoirs: Aide au devoirs
-  * Encadrement: mentorat individualisé
+<div class="activite-bloc">
+<div class="activite-texte" markdown="1">
+**2022 · Stage de découverte de 3e à l'ISAE-SUPAERO**, Toulouse
 
-* Lauréat 2026 du prix STEM for all
-  * Thales Solidarity : Pl. de la Défense (Thales Group)
-  * Vocations des jeunes pour les STEM
-  
+Stage d'observation en ingénierie aéronautique, en complément du BIA : FabLab, simulateurs de vol et aérodrome.
+</div>
+<figure class="activite-image">
+  <img src="{{ base_path }}/images/cv/isae-supaero-campus.png" alt="Campus de l'ISAE-SUPAERO à Toulouse">
+  <figcaption>Campus de l'ISAE-SUPAERO, Toulouse</figcaption>
+</figure>
+</div>
+
+* **oct. 2023 – présent** · Club Espace, [Le FabRiquet](https://fabriquet.fab-manager.com/#!/), Ramonville-Saint-Agne
+  * Conception et impression 3D (Fusion 360) pour un projet de mini-fusée mené avec un club de passionnés.
+  * Campagnes de lancements.
+* **févr. 2025 – juin 2026** · Accompagnant éducatif bénévole, AFEV, Toulouse
+  * Mentorat hebdomadaire (2 h) d'un élève de l'école primaire Alexandre Fourtanier ; engagement reconnu par l'Afev (« entière satisfaction »).
+* **oct. 2026** · Lauréat 2026 du prix STEM for All, Paris
+  * Prix Thales Solidarity, en partenariat avec l'Académie des technologies, pour encourager les vocations STEM d'étudiants méritants de 1re année.
+
+{% include style-blocs.html %}
+
 Compétences
 ======
 <div class="skills-wrapper">
-
     <ul class="skills-list">
-        <!-- Compétence Principale 1 -->
         <li>
-            <i class="fas fa-code"></i>
-            <span>C / C++/ web3</span>
-            <!-- Sous-compétences pour C/C++ -->
+            <i class="fas fa-wave-square"></i>
+            <span>Mesure et essais</span>
             <ul class="sub-skills">
-                <li>Programmation orientée objet (POO)</li>
-                <li>Gestion de la mémoire (pointeurs)</li>
-                <li>Programmation bas niveau (matériel)</li>
-                <li>Pages web responsives en HTML, CSS et JS</li>
+                <li>Oscilloscope, multimètre, GBF et appareils de mesure électrique</li>
+                <li>Tests et validation de systèmes électroniques, recherche de panne</li>
+                <li>Calcul d'incertitudes (type A et B)</li>
+                <li>Lecture de schémas électriques et de datasheets, soudure électronique</li>
             </ul>
         </li>
-
-        <!-- Compétence Principale 2 -->
         <li>
             <i class="fas fa-microchip"></i>
-            <span>Électronique et matériel</span>
+            <span>Électronique et embarqué</span>
             <ul class="sub-skills">
-                <li>Arduino / ESP32</li>
-                <li>Analyse de signaux (oscilloscope)</li>
-                <li>Conception de schémas et de PCB</li>
-                <li>Simulation : Proteus/KICAD</li>
+                <li>Électronique de puissance</li>
+                <li>Capteurs, PWM, commande moteur, Bluetooth</li>
+                <li>GPIO, I2C, SPI, UART</li>
+                <li>ESP32, STM32, Raspberry Pi</li>
             </ul>
         </li>
-
-        <!-- Compétence Principale 3 -->
         <li>
             <i class="fas fa-robot"></i>
-            <span>Robotique et automatisme</span>
+            <span>Automatisme</span>
             <ul class="sub-skills">
-                <li>Commande de moteurs et servomoteurs</li>
-                <li>Capteurs (centrale inertielle, ultrasons)</li>
+                <li>Automates programmables (API)</li>
                 <li>TIA Portal (Siemens)</li>
                 <li>Control Expert (Schneider Electric)</li>
             </ul>
         </li>
-        
-        <!-- Compétence Principale 4 (MISE À JOUR) -->
         <li>
-            <i class="fab fa-python"></i>
-            <span>Python</span>
-            <!-- Sous-compétences pour Python -->
+            <i class="fas fa-code"></i>
+            <span>Logiciels</span>
             <ul class="sub-skills">
-                <li>Scripts et automatisation</li>
-                <li>Analyse de données (Matplotlib, NumPy)</li>
-                <li>Communication série avec des microcontrôleurs</li>
-                <li>Microsoft/ Pack Office</li>
+                <li>C++, Python</li>
+                <li>KiCad, Proteus, MATLAB</li>
+                <li>Fusion 360, PlatformIO</li>
+                <li>Microsoft Office</li>
             </ul>
         </li>
     </ul>
-
 </div>
-
 
 <style>
     .skills-wrapper {
@@ -102,7 +106,7 @@ Compétences
     }
 
     .skills-list > li {
-        font-size: 1.2rem;
+        font-size: 16px;
         font-weight: 600;
         margin-bottom: 0.5rem; 
         display: flex;
@@ -125,7 +129,7 @@ Compétences
     }
 
     .sub-skills li {
-        font-size: 0.85rem;
+        font-size: 13px;
         font-weight: 400;
         margin-bottom: 0.15rem;
     }
@@ -145,6 +149,7 @@ Loisirs
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Langues
+Langues et loisirs
 ======
-<ul><em>Français (langue maternelle), anglais (B2)</em></ul>
+* **Langues** : français (langue maternelle), anglais B2, espagnol A2
+* **Loisirs** : musique (guitare), basketball, voyage (vélo, randonnée, nature)
