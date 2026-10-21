@@ -30,7 +30,7 @@ Chaque semaine, j'accompagnais un élève de Grande Section dans ses apprentissa
   </figure>
 </div>
 
-### Membre du FabRiquet, fablab de Ramonville-Saint-Agne
+### F@briquet, fablab de Ramonville-Saint-Agne
 
 <div class="activite-bloc">
 <div class="activite-texte" markdown="1">
@@ -69,3 +69,12 @@ Le basket, et en particulier le format 3x3, demande beaucoup de communication, d
 </div>
 
 {% include style-blocs.html %}
+
+<style>
+  /* tous les titres de la page ont la police et la taille du titre "Vie associative" */
+  .page__content h3 {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: -0.015em;
+  }
+</style>
