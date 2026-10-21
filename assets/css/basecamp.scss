@@ -673,3 +673,50 @@ html, body { overflow-x: clip; }
 .page__related p { font-size: 13px; }
 .page__content .activite-photos.trois figure { flex-basis: 180px; }
 .page__content .activite-photos.trois figcaption { text-align: center; }
+
+/* ---------- Page Contact ---------- */
+
+.page__content .contact-cartes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin: 1.2em 0 0.6em;
+}
+
+.page__content a.contact-carte {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  min-width: 0;
+  padding: 14px 16px;
+  border: 2px solid var(--bc-ink);
+  border-radius: 14px;
+  background: var(--bc-sand);
+  color: var(--bc-ink);
+  text-decoration: none;
+  &:hover { background: var(--bc-yellow-soft); }
+  i { font-size: 20px; margin-bottom: 4px; }
+}
+
+.contact-carte__titre { font-family: $bc-caption; font-size: 16px; font-weight: 700; }
+
+.contact-carte__lien {
+  max-width: 100%;
+  overflow: hidden;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--bc-blue);
+  text-decoration: underline;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.page__content p.contact-lieu { font-size: 13px; color: var(--bc-ink-soft); }
+
+@media (max-width: 600px) {
+  .page__content .contact-cartes { grid-template-columns: 1fr; gap: 10px; }
+  .page__content a.contact-carte { flex-direction: row; align-items: center; gap: 0 10px; flex-wrap: wrap; padding: 10px 14px; line-height: 1.4; }
+  .page__content a.contact-carte i { margin: 0; }
+  .contact-carte__lien { flex-basis: 100%; padding-left: 30px; }
+}
