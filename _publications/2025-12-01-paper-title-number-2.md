@@ -3,78 +3,36 @@ title: "Projet Line Tracker 2"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-12-01-paper-title-number-2
-excerpt: 'Cette page traite le Cahier des charges : Line Tracker (Informatique).'
+excerpt: "Cette page présente la partie numérique du robot suiveur de ligne, pilotée par une Raspberry Pi."
 date: 2025-12-01
-venue: 'Journal 1'
-membres: 'Paguiel Nganji, Martin Chevrollier'
-slidesurl: 'https://paguielng.github.io/mdb2/files/slides2.pdf'
-paperurl: 'https://paguielng.github.io/mdb2/files/paper2.pdf'
-citation: 'Paguiel, Martin. (2025). &quot;Projet Line Tracker 2.&quot; <i>Journal 1</i>. 1(2).'
+membres: 'Paguiel Nganji, <a href="https://www.linkedin.com/in/martin-chevrollier/">Martin Chevrollier</a>'
+citation: 'SAE Line Tracker, BUT GEII, 2025-2026, avec Martin Chevrollier.'
 ---
 
-1. Présentation du projet
-   ---
-1.1 Contexte
-   ---
-Une entreprise souhaite développer un nouveau produit à destination de son usine de production pour acheminer
-des pièces d'assemblage, en toute autonomie. Il est demandé de développer ce produit et de fournir :
-- Un prototype
-- Un dossier de fabrication (Cahier de fabrication + fichiers GERBER)
-- Un dossier technique (cahier de laboratoire + documentation technique + )
-- Une démonstration du système opérationnel
-  
-1.2 Objectifs
----
+{% include base_path %}
 
-Concevoir, vérifier et valider l'électronique et la programmation d'une base roulante intelligente.
+<div class="fiche" markdown="1">
+**Cadre** : SAE informatique du 1er semestre, BUT GEII, 2025-2026<br>
+**Équipe** : binôme avec [Martin Chevrollier](https://www.linkedin.com/in/martin-chevrollier/)<br>
+**Matériel** : Raspberry Pi, carte Sense HAT (compas), capteurs infrarouges de ligne
+</div>
 
-1.3 Description de l’existant
----
-Le Robot est une plateforme dotée de 2 roues motorisées, d'une roue libre (bille) et de deux capteurs de suivi de
-ligne infrarouge.
-Vous avez à votre disposition un système Raspberry pi et une carte Sense HAT avec une fonction de compas qui
-donne le cap suivi par le robot.
+## Le projet
 
-1.4 Critères d’acceptabilité du projet
----
-- Dossier de fabrication complet
-- Cahier de laboratoire complet et soigné
-- Le robot est opérationnel
-- Les consignes ont été respectées
+<div class="activite-bloc">
+<div class="activite-texte" markdown="1">
+C'est la suite du [Robot Mobile]({{ base_path }}/publication/2025-11-01-paper-title-number-1) : la même base roulante, mais cette fois pilotée par une **Raspberry Pi**. La carte Sense HAT ajoute un compas qui donne le cap suivi par le robot.
 
-2 Expression des besoins
-   ---
-2.1 Besoins fonctionnel
-   ---
-- Un prototype
-- Un dossier technique (cahier de laboratoire)
-- Une démonstration du système opérationnel
+Le robot doit suivre une ligne noire sur fond clair de façon plus fine qu'en mode purement analogique.
+</div>
+<figure class="activite-image">
+  <img src="{{ base_path }}/images/projets/line-tracker/robot.jpg" alt="Le robot suiveur de ligne avec sa Raspberry Pi, sa carte Sense HAT et sa nappe de liaison">
+  <figcaption>Le robot et sa Raspberry Pi</figcaption>
+</figure>
+</div>
 
-3 Contraintes
----
-3.1 Coûts
-   ---
-Aucune contrainte de coût n’est imposée. En revanche un calcul de coût unitaire de l'électronique pour une
-production de 100 cartes est attendu (Composants électroniques + circuit imprimé).
+## Ce que nous avons fait
 
-3.2 Autonomie de fonctionnement
----
-La Base Roulante (robot) doit avoir une autonomie d'au moins 30 minutes avec une batterie de
-2300mAh de 9,6V.
+Avec Martin, nous avons travaillé sur les capteurs optiques, l'asservissement du robot et l'optimisation du suivi de trajectoire, puis nous avons validé le comportement par des tests sur la piste.
 
-3.3 Délais de réalisation
----
-1h C / 22h TD / 26h TP / 12h autonomie
-
-3.4 Autres contraintes
----
-- travail en binôme
-- time sharing (robot partagé)
-- cahier de laboratoire / de suivi à mettre à jour en fin de CHAQUE séance sur TEAMS
-
-4 Déroulement du projet
----
-4.1 Séquencement
-   ---
-- Partie électronique du projet
-- Partie Numérique du projet
+{% include style-blocs.html %}

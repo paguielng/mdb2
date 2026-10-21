@@ -638,3 +638,38 @@ html, body { overflow-x: clip; }
   color: var(--bc-blue);
   text-decoration: underline;
 }
+
+/* fiche d'identite en tete des pages projets */
+.page__content .fiche {
+  margin: 1.2em 0 0.4em;
+  padding: 0.8em 1.1em;
+  border: 2px solid var(--bc-ink);
+  border-radius: 14px;
+  background: var(--bc-sand);
+  font-size: 13px;
+  line-height: 1.7;
+  p { margin: 0; font-size: 13px; }
+}
+
+.page__content .bc-docs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* articles proches en bas des billets de blog */
+.page__related {
+  width: 100%;
+  float: none;
+  margin: 2em 0 0;
+  padding-top: 1em;
+  border-top: 1px solid var(--bc-line);
+  .page__related-title { font-family: $bc-font; font-size: 13px; font-weight: 800; }
+  .grid__wrapper { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 18px; margin: 0; }
+  .grid__item { width: auto; float: none; margin: 0; }
+  .archive__item-title { font-size: 16px; }
+  .archive__item-excerpt { font-size: 13px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+}
+.page__related p { font-size: 13px; }
+.page__content .activite-photos.trois figure { flex-basis: 180px; }
+.page__content .activite-photos.trois figcaption { text-align: center; }

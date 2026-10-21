@@ -63,13 +63,13 @@
     {% endif %}
     
     {% if cite_text and post.paperurl and post.slidesurl and post.bibtexurl %}
-      <p>{{ cite_label }} : {{ cite_text }}<br /><a href="{{ post.paperurl }}">Télécharger le document</a> | <a href="{{ post.slidesurl }}">Télécharger les diapos</a> | <a href="{{ post.bibtexurl }}">Télécharger le BibTeX</a></p>
+      <p>{{ cite_label }} : {{ cite_text }}<br /><a href="{{ post.paperurl }}">Cahier de laboratoire (PDF)</a> | <a href="{{ post.slidesurl }}">Télécharger les diapos</a> | <a href="{{ post.bibtexurl }}">Télécharger le BibTeX</a></p>
     {% elsif cite_text and post.paperurl and post.slidesurl %}
-      <p>{{ cite_label }} : {{ cite_text }}<br /><a href="{{ post.paperurl }}">Télécharger le document</a> | <a href="{{ post.slidesurl }}">Télécharger les diapos</a></p>
+      <p>{{ cite_label }} : {{ cite_text }}<br /><a href="{{ post.paperurl }}">Cahier de laboratoire (PDF)</a> | <a href="{{ post.slidesurl }}">Télécharger les diapos</a></p>
     {% elsif cite_text and post.paperurl and post.bibtexurl %}
-      <p>{{ cite_label }} : {{ cite_text }}<br /><a href="{{ post.paperurl }}">Télécharger le document</a> | <a href="{{ post.bibtexurl }}">Télécharger le BibTeX</a></p>
+      <p>{{ cite_label }} : {{ cite_text }}<br /><a href="{{ post.paperurl }}">Cahier de laboratoire (PDF)</a> | <a href="{{ post.bibtexurl }}">Télécharger le BibTeX</a></p>
     {% elsif cite_text and post.paperurl %}
-      <p>{{ cite_label }} : {{ cite_text }}<br /><a href="{{ post.paperurl }}">Télécharger le document</a></p>
+      <p>{{ cite_label }} : {{ cite_text }}<br /><a href="{{ post.paperurl }}">Cahier de laboratoire (PDF)</a></p>
     {% elsif cite_text and post.slidesurl and post.bibtexurl %}
       <p>{{ cite_label }} : {{ cite_text }}<br /><a href="{{ post.slidesurl }}">Télécharger les diapos</a> | <a href="{{ post.bibtexurl}}">Télécharger le BibTeX</a></p>
     {% elsif cite_text and post.slidesurl %}
@@ -79,9 +79,9 @@
     {% elsif cite_text %}
       <p>{{ cite_label }} : {{ cite_text }}</p>
     {% elsif post.paperurl and post.bibtexurl %}
-      <p><a href=" {{ post.paperurl }} ">Télécharger le document</a> | <a href="{{ post.bibtexurl }}">Télécharger le BibTeX</a></p>
+      <p><a href=" {{ post.paperurl }} ">Cahier de laboratoire (PDF)</a> | <a href="{{ post.bibtexurl }}">Télécharger le BibTeX</a></p>
     {% elsif post.paperurl %}
-      <p><a href=" {{ post.paperurl }} ">Télécharger le document</a></p>
+      <p><a href=" {{ post.paperurl }} ">Cahier de laboratoire (PDF)</a></p>
     {% elsif post.slidesurl and post.bibtexurl %}
       <p><a href="{{ post.slidesurl }}">Télécharger les diapos</a> | <a href="{{ post.bibtexurl }}">Télécharger le BibTeX</a></p>
     {% elsif post.slidesurl %}
