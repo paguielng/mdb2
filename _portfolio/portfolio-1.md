@@ -1,72 +1,100 @@
 ---
 title: "Portfolio Robot Mobile"
-excerpt: "Cahier des charges de la SAE Robot Mobile<br/><img src='/images/500x300.png'>"
+excerpt: "BUT GEII 1re année, semestre 1 : mes traces pour les compétences Concevoir et Vérifier.<br/><img class='vignette' src='/mdb2/images/projets/robot-mobile/robot-mobile.jpg' alt='Le Robot Mobile'>"
 collection: portfolio
 ---
+{% include base_path %}
 
-1. Présentation du projet
-   ---
-1.1 Contexte
-   ---
-Une entreprise souhaite développer un nouveau produit à destination de son usine de production pour acheminer
-des pièces d'assemblage, en toute autonomie. Il est demandé de développer ce produit et de fournir :
-- Un prototype
-- Un dossier de fabrication (Cahier de fabrication + fichiers GERBER)
-- Un dossier technique (cahier de laboratoire + documentation technique + )
-- Une démonstration du système opérationnel
-  
-1.2 Objectifs
----
+Ce portfolio rassemble mes traces de la SAÉ Robot Mobile, réalisée au premier semestre. Chaque trace est rattachée à un apprentissage critique (AC) du niveau 1 des compétences **Concevoir** et **Vérifier** du référentiel GEII.
 
-Concevoir, vérifier et valider l'électronique et la programmation d'une base roulante intelligente.
+<div class="fiche" markdown="1">
+**Cadre** : BUT GEII 1re année, semestre 1, SAÉ 1.01 « Concevoir la partie GEII d'un système » et SAÉ 1.02 « Vérifier la partie GEII d'un système »<br>
+**Équipe** : binôme avec [Martin Chevrollier](https://www.linkedin.com/in/martin-chevrollier/)<br>
+**Le projet** : [Robot Mobile]({{ base_path }}/publications/2025-11-01-paper-title-number-1/)
+</div>
 
-1.3 Description de l’existant
----
-Le Robot est une plateforme dotée de 2 roues motorisées, d'une roue libre (bille) et de deux capteurs de suivi de
-ligne infrarouge.
-Vous avez à votre disposition un système Raspberry pi et une carte Sense HAT avec une fonction de compas qui
-donne le cap suivi par le robot.
+## Concevoir la partie GEII d'un système
 
-1.4 Critères d’acceptabilité du projet
----
-- Dossier de fabrication complet
-- Cahier de laboratoire complet et soigné
-- Le robot est opérationnel
-- Les consignes ont été respectées
+### AC11.01 · Produire une analyse fonctionnelle d'un système simple
 
-2 Expression des besoins
-   ---
-2.1 Besoins fonctionnel
-   ---
-- Un prototype
-- Un dossier technique (cahier de laboratoire)
-- Une démonstration du système opérationnel
+<div class="activite-bloc">
+<div class="activite-texte" markdown="1">
+À partir du cahier des charges, nous avons rédigé le cahier d'exigences, puis découpé la carte en fonctions numérotées de FP1 à FP16.
 
-3 Contraintes
----
-3.1 Coûts
-   ---
-Aucune contrainte de coût n’est imposée. En revanche un calcul de coût unitaire de l'électronique pour une
-production de 100 cartes est attendu (Composants électroniques + circuit imprimé).
+Le schéma fonctionnel montre le chemin de chaque signal : capteur infrarouge, détection de seuil, abaisseur de tension vers la Raspberry Pi, puis commande des moteurs.
+</div>
+<figure class="activite-image">
+  <a href="{{ base_path }}/images/portfolio/robot-mobile/schema-fonctionnel.png"><img src="{{ base_path }}/images/portfolio/robot-mobile/schema-fonctionnel.png" alt="Schéma fonctionnel du Robot Mobile, fonctions FP1 à FP16"></a>
+  <figcaption>Trace : notre schéma fonctionnel</figcaption>
+</figure>
+</div>
 
-3.2 Autonomie de fonctionnement
----
-La Base Roulante (robot) doit avoir une autonomie d'au moins 30 minutes avec une batterie de
-2300mAh de 9,6V.
+### AC11.02 · Réaliser un prototype
 
-3.3 Délais de réalisation
----
-1h C / 22h TD / 26h TP / 12h autonomie
+Nous avons dessiné le schéma électrique sous KiCad, calculé les résistances du seuil de comparaison (2,6 V), puis routé et soudé la carte avant de la monter sur le robot.
 
-3.4 Autres contraintes
----
-- travail en binôme
-- time sharing (robot partagé)
-- cahier de laboratoire / de suivi à mettre à jour en fin de CHAQUE séance sur TEAMS
+<div class="activite-photos schemas trois">
+  <figure>
+    <a href="{{ base_path }}/images/projets/robot-mobile/schema-electrique.png"><img src="{{ base_path }}/images/projets/robot-mobile/schema-electrique.png" alt="Schéma électrique de la carte du Robot Mobile"></a>
+    <figcaption>Schéma électrique sous KiCad</figcaption>
+  </figure>
+  <figure>
+    <a href="{{ base_path }}/images/projets/robot-mobile/calcul-seuil.jpg"><img src="{{ base_path }}/images/projets/robot-mobile/calcul-seuil.jpg" alt="Calcul manuscrit des résistances du seuil"></a>
+    <figcaption>Calcul des résistances du seuil</figcaption>
+  </figure>
+  <figure>
+    <a href="{{ base_path }}/images/projets/robot-mobile/carte-montee.jpg"><img src="{{ base_path }}/images/projets/robot-mobile/carte-montee.jpg" alt="Notre carte montée sur le robot"></a>
+    <figcaption>Le prototype monté sur le robot</figcaption>
+  </figure>
+</div>
 
-4 Déroulement du projet
----
-4.1 Séquencement
-   ---
-- Partie électronique du projet
-- Partie Numérique du projet
+### AC11.03 · Rédiger un dossier de fabrication
+
+<div class="activite-bloc">
+<div class="activite-texte" markdown="1">
+Pour chaque fonction, nous avons listé les composants avec leur valeur, leur boîtier, les outils, la méthode de soudure et leur emplacement sur la carte.
+
+Ce dossier nous a servi de guide pendant la soudure, fonction par fonction.
+</div>
+<figure class="activite-image">
+  <a href="{{ base_path }}/images/portfolio/robot-mobile/fiche-fabrication.png"><img src="{{ base_path }}/images/portfolio/robot-mobile/fiche-fabrication.png" alt="Extrait du dossier de fabrication : liste des composants de la fonction FP7"></a>
+  <figcaption>Trace : liste des composants de FP7</figcaption>
+</figure>
+</div>
+
+## Vérifier la partie GEII d'un système
+
+### AC12.01 · Appliquer une procédure d'essais
+
+<div class="activite-bloc">
+<div class="activite-texte" markdown="1">
+Chaque fonction a été testée seule avec une fiche de test : rôle, points de mesure, appareils et résultats attendus.
+
+Pour l'alimentation FA1, nous avons injecté 10 V au multimètre : la sortie donne bien 5 V. En polarité inversée, la sortie reste à 0 V et la carte est protégée.
+</div>
+<figure class="activite-image">
+  <a href="{{ base_path }}/images/portfolio/robot-mobile/fiche-test-fa1.png"><img src="{{ base_path }}/images/portfolio/robot-mobile/fiche-test-fa1.png" alt="Fiche de test unitaire de la fonction FA1"></a>
+  <figcaption>Trace : fiche de test de l'alimentation</figcaption>
+</figure>
+</div>
+
+### AC12.02 et AC12.03 · Identifier et décrire un dysfonctionnement
+
+<div class="activite-bloc">
+<div class="activite-texte" markdown="1">
+Lors des tests, les LED témoins des capteurs (FP2 et FP4) ne s'allumaient pas. Avec la fiche de dépannage, nous avons vérifié l'alimentation, puis le signal d'entrée et de sortie.
+
+La cause était une mauvaise soudure. Nous avons remplacé les LED en respectant leur sens.
+</div>
+<figure class="activite-image">
+  <a href="{{ base_path }}/images/portfolio/robot-mobile/fiche-depannage.png"><img src="{{ base_path }}/images/portfolio/robot-mobile/fiche-depannage.png" alt="Fiche de dépannage des fonctions FP2 et FP4"></a>
+  <figcaption>Trace : fiche de dépannage FP2/FP4</figcaption>
+</figure>
+</div>
+
+Bilan : je sais maintenant suivre le cycle en V de l'analyse jusqu'aux tests. Il me reste à mieux gérer le temps : toutes les soudures n'ont pas été finies, même si un moteur a tourné sur notre carte.
+{: .notice}
+
+<p><a class="btn btn--primary" href="{{ base_path }}/files/cahier-de-labo-robot-mobile.pdf">Lire le cahier de laboratoire (PDF)</a></p>
+
+{% include style-blocs.html %}

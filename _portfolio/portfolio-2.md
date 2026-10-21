@@ -1,88 +1,106 @@
 ---
 title: "Portfolio SMART CAR"
-excerpt: "Cahier des charges de la SAE SMART CAR <br/><img src='/images/500x300.png'>"
+excerpt: "BUT GEII 1re année, semestre 2 : mes traces pour les compétences Concevoir et Vérifier.<br/><img class='vignette' src='/mdb2/images/projets/smartcar/smartcar.jpg' alt='La SmartCar'>"
 collection: portfolio
 ---
+{% include base_path %}
 
-1 Présentation du projet
-   ---
-1.1 Contexte
-   ---
-Une entreprise de jouet souhaite développer une voiture pilotée par smartphone, qui intègre plusieurs fonctionnalités comme l'anticollision, le signalement d'obstacle ……
+Ce portfolio rassemble mes traces de la SAÉ SmartCar, réalisée au second semestre. La SAÉ 2.01 mobilise les six apprentissages critiques (AC) du niveau 1 des compétences **Concevoir** et **Vérifier** du référentiel GEII.
 
-1.2 Objectifs
----
-Concevoir, vérifier et valider l'électronique et la programmation d'une voiture pilotée par smartphone afin de :
-- Permettre le pilotage de la voiture à partir d'un joystick virtuel sur un smartphone
-- Donner, à ce véhicule, de l’autonomie dans certaines prises de décision (anticollision)
-- Fournir des informations visuelles et sonores au pilote
+<div class="fiche" markdown="1">
+**Cadre** : BUT GEII 1re année, semestre 2, SAÉ 2.01 « Conception et vérification d'un prototype à partir d'un cahier des charges complet »<br>
+**Équipe** : binôme avec [Pierre Gazeau](https://www.linkedin.com/in/pierre-gazeau-5631b0361/)<br>
+**Le projet** : [SmartCar]({{ base_path }}/publications/2026-01-01-paper-title-number-3/)
+</div>
 
+## Concevoir la partie GEII d'un système
 
-1.3 Description de l’existant
----
-La voiture est une voiture Radio Commandée déjà existante au catalogue de l'entreprise. Toute l'électronique existante a été supprimée, tout le reste est conservé (carcasse, roues, moteurs, phares …). Les éléments suivants ont été ajoutés à l'intérieur :
-- Un module pont en H de référence LF298 pour alimenter le moteur de direction et le moteur de propulsion dans les 2 sens de marche
-- Un buzzer passif pour générer un signal avertisseur d'obstacle ou le klaxon
-- Deux capteurs infrarouges Sharp de détection d'obstacle
-- 6 accumulateurs AA NiMh de 1.2V et 2300mAh en série ou 1 pack batterie de 2 accumulateurs 18650 Li ion de 3.7V de 2600mAh.
+### AC11.01 · Produire une analyse fonctionnelle d'un système simple
 
-1.4 Critères d’acceptabilité du projet
----
-Le chef d'entreprise souhaite qu'à la fin de l'étude, lui soient fournis :
-- Un dossier de fabrication de la carte électronique (cahier de fabrication + fichiers GERBER + fichier PROTEUS)
-- Un dossier technique (cahier de laboratoire + documentation technique + simulations + schémas électriques, schéma d’implantation…)
-- Une démonstration avec un prototype opérationnel
-- Une étude de coût unitaire pour une production de 100 exemplaires
-- Une étude d'autonomie voiture à l’arrêt
+<div class="activite-bloc">
+<div class="activite-texte" markdown="1">
+Le cahier des charges est plus complet qu'au premier semestre : détection d'obstacles, sons, phares, température et niveau de batterie.
 
-2 Expression des besoins
----
-2.1 Besoins fonctionnel
----
-- Un prototype
-- Un dossier technique (cahier de laboratoire)
-- Un dossier technique de fabrication (cahier de fabrication ……)
-- Une démonstration du système opérationnel
+Nous l'avons traduit en exigences, puis en fonctions FP1 à FP11 reliées à la carte microcontrôleur. Côté programme, chaque fonction a sa vue externe : entrées, sorties et rôle.
+</div>
+<figure class="activite-image">
+  <a href="{{ base_path }}/images/portfolio/smartcar/schema-fonctionnel.png"><img src="{{ base_path }}/images/portfolio/smartcar/schema-fonctionnel.png" alt="Schéma fonctionnel de la carte électronique de la SmartCar"></a>
+  <figcaption>Trace : notre schéma fonctionnel</figcaption>
+</figure>
+</div>
 
-2.2 Fonctionnement global attendu
----
-- La voiture est pilotée par smartphone via liaison Bluetooth grâce à un joystick virtuel
-- Des dispositifs de sécurité sont mis en œuvre sur la voiture tels que des capteurs de distance d’obstacle avant et arrière, et un avertisseur sonore en fonction de la proximité de l’obstacle.
-- L'avertisseur sonore peut être activé directement comme klaxon grâce à un bouton poussoir virtuel sur le smart-phone. Il est aussi possible de générer une mélodie ou des fréquences fixes.
-- Un bargraphe virtuel, sur le téléphone, permet d'informer visuellement l'utilisateur de la proximité de l'obstacle à l'avant et/ou du niveau de batterie. (Le niveau de batterie sera indiqué en permanence sauf si proximité d’obs-tacle à l’avant)
-- Détection (Près, Moyen et Loin) respectivement moins de 40cm, entre 40 et 60cm et au-delà
-- L’utilisateur peut choisir d’activer, de façon permanente, les phares avant et arrière de la voiture grâce à un switch virtuel sur l’écran du smartphone et au besoin de passer dans un mode de gestion automatique grâce à un capteur de luminosité.
-- Les phares arrière s’allument plus fort en cas de freinage.
-- La température extérieure est reportée sur le smartphone.
+### AC11.02 · Réaliser un prototype matériel et logiciel
 
-2.3 Fonctionnement détaillé attendu
----
-- Deux détecteurs de distance infrarouge (un à l’arrière et l’autre à l’avant) permettent de mesurer la distance à l’obstacle et la vitesse d'approche du véhicule, et d’identifier la zone de proximité
-- Un buzzer permet d’émettre des bips plus ou moins rapprochés en fonction de la distance à l’obstacle (2 bips par seconde dans la zone Moyen et 4 bips par seconde dans la zone près). Le klaxon est prioritaire sur les bips.
-- Le véhicule réduit automatiquement de 50% la consigne de vitesse dans la zone moyenne lorsque le déplace-ment s’effectue vers l’obstacle.
-- Le véhicule freine à fond (inversion de la propulsion à consigne maximale), jusqu’à arrêt du véhicule, lorsque le véhicule s’approche de l’obstacle dans la zone près, et cela quel que soit la consigne.
-- Les phares arrière s’allument plus fort à chaque freinage.
-- Les phares avant et arrière s’allument de façon permanente si le switch virtuel est dans la position “ON” et automatiquement en cas de faible luminosité si le switch est en position “AUTO”
-- ,,,,,,,,,,,
+Le prototype est à la fois une carte et un programme : une carte shield pour la Nucleo STM32, simulée sous Proteus, et un code C++ écrit sous PlatformIO à partir de nos algorithmes.
 
-3 Contraintes
----
-3.1 Coûts
----
-Aucune contrainte de coût n’est imposée. En revanche un calcul de coût unitaire pour une production de 100 cartes est attendu (composants électroniques + circuit imprimé + voiture + accessoires + main d'œuvre).
+<div class="activite-photos schemas trois">
+  <figure>
+    <a href="{{ base_path }}/images/projets/smartcar/carte-shield-3d.jpg"><img src="{{ base_path }}/images/projets/smartcar/carte-shield-3d.jpg" alt="Vue 3D de la carte shield de la SmartCar"></a>
+    <figcaption>Vue 3D de la carte shield</figcaption>
+  </figure>
+  <figure>
+    <a href="{{ base_path }}/images/portfolio/smartcar/algorithme-propulsion.png"><img src="{{ base_path }}/images/portfolio/smartcar/algorithme-propulsion.png" alt="Algorithme de la fonction pwm_propulsion"></a>
+    <figcaption>Algorithme de la propulsion</figcaption>
+  </figure>
+  <figure>
+    <a href="{{ base_path }}/images/projets/smartcar/smartcar.jpg"><img src="{{ base_path }}/images/projets/smartcar/smartcar.jpg" alt="La SmartCar avec sa carte montée sur le toit"></a>
+    <figcaption>Le prototype final</figcaption>
+  </figure>
+</div>
 
-3.2 Autonomie de fonctionnement
----
-La voiture doit avoir une autonomie d'au moins 30 minutes avec une batterie de 6 accumulateurs NiMh de capacité 2300mAh.
+L'algorithme de propulsion décide seul de freiner : si un obstacle approche par l'arrière, la voiture freine, même si le joystick demande de reculer.
+{: .notice}
 
-3.3 Délais de réalisation
----
-2h C / 28h TD / 27h TP / 25h autonomie
+### AC11.03 · Rédiger un dossier de fabrication
 
-4 Déroulement du projet
-4.1 Séquencement
-   ---
-- Partie électronique du projet
-- Partie Numérique du projet
-- Dossier de conception (cahier de laboratoire + documentation technique + simulations)
-- Dossier de fabrication (cahier de fabrication + fichiers GERBER + fichier PROTEUS)
+<div class="activite-bloc">
+<div class="activite-texte" markdown="1">
+Pour chaque fonction, le dossier donne la référence, la valeur, la technologie (traversante ou CMS), le boîtier, les outils et la méthode de soudure.
+
+Chaque composant est repéré en couleur sur le schéma d'implantation, ce qui a évité les erreurs de placement.
+</div>
+<figure class="activite-image">
+  <a href="{{ base_path }}/images/portfolio/smartcar/fiche-fabrication.png"><img src="{{ base_path }}/images/portfolio/smartcar/fiche-fabrication.png" alt="Extrait du dossier de fabrication : composants de la fonction FP7"></a>
+  <figcaption>Trace : composants de la fonction FP7</figcaption>
+</figure>
+</div>
+
+## Vérifier la partie GEII d'un système
+
+### AC12.01 · Appliquer une procédure d'essais
+
+<div class="activite-bloc">
+<div class="activite-texte" markdown="1">
+Chaque fonction a sa fiche de test. Pour l'alimentation FA1, nous attendions 5 V et une référence de 2,5 V : nous avons mesuré 5,1 V et 2,493 V, avec la LED allumée.
+
+Les signaux PWM de propulsion ont été relevés à l'oscilloscope pour vérifier leur fréquence et leur rapport cyclique.
+</div>
+<figure class="activite-image">
+  <a href="{{ base_path }}/images/portfolio/smartcar/fiche-test-fa1.png"><img src="{{ base_path }}/images/portfolio/smartcar/fiche-test-fa1.png" alt="Fiche de test unitaire de la fonction FA1 de la SmartCar"></a>
+  <figcaption>Trace : fiche de test de l'alimentation</figcaption>
+</figure>
+</div>
+
+### AC12.02 et AC12.03 · Identifier et décrire un dysfonctionnement
+
+<div class="activite-bloc">
+<div class="activite-texte" markdown="1">
+La fonction FP11 (niveau de batterie) donnait 3,4 V au lieu des 3,3 V attendus. L'alimentation, les entrées et les soudures étaient correctes.
+
+Nous avons trouvé deux causes : un arrondi dans le calcul du pont diviseur, et des noms de résistances différents entre KiCad et la carte. Après recalcul, nous avons soudé R4 = 18 kΩ et R40 = 3,3 kΩ.
+</div>
+<figure class="activite-image">
+  <a href="{{ base_path }}/images/portfolio/smartcar/fiche-depannage.png"><img src="{{ base_path }}/images/portfolio/smartcar/fiche-depannage.png" alt="Fiche de dépannage de la fonction FP11"></a>
+  <figcaption>Trace : fiche de dépannage FP11</figcaption>
+</figure>
+</div>
+
+Bilan : par rapport au Robot Mobile, j'ai ajouté la partie logicielle et mené un vrai dépannage jusqu'à la cause. J'ai aussi appris à garder les mêmes noms de composants du schéma jusqu'à la carte.
+{: .notice}
+
+<p class="bc-docs">
+  <a class="btn btn--primary" href="{{ base_path }}/files/cahier-de-labo-smartcar-electronique.pdf">Cahier de labo : électronique (PDF)</a>
+  <a class="btn btn--primary" href="{{ base_path }}/files/cahier-de-labo-smartcar-info-embarquee.pdf">Cahier de labo : informatique embarquée (PDF)</a>
+</p>
+
+{% include style-blocs.html %}
