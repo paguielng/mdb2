@@ -1,6 +1,6 @@
 ---
 title: "TP08 - PROJET DE SYNTHESE"
-excerpt: "S2 Informatique embarquée STM32 NUCLEO-L476RG<br/><img src='/images/500x300.png'>"
+excerpt: "S2 Informatique embarquée STM32 NUCLEO-L476RG<br/><img class='vignette' src='https://github.com/paguielng/mdb2/blob/master/images/projets/IE2/TP08-PROJET_DE_SYNTHESE.jpeg?raw=true' alt='Projet de synthèse TP08'>"
 collection: portfolio
 ---
 {% include toc %}
