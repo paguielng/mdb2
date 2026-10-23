@@ -60,9 +60,10 @@ Dans mon travail, j'ai l'habitude d'utiliser certains outils :
 
 - [C/C++](https://isocpp.org/) pour les applications embarquées où les performances sont cruciales
 - [KiCad](https://www.kicad.org/) pour schématiser les circuits électroniques
+- [Proteus](https://www.labcenter.com/) pour la conception et simulation de circuits imprimés simplifiées
 - [Git/GitHub](https://github.com/paguielng/) pour gérer mes projets
-- [Wokwi](https://wokwi.com/) pour simuler des ESP32 en ligne
-- [MATLAB](https://www.mathworks.com/products/matlab.html) pour les simulations
+- [Wokwi](https://wokwi.com/) pour simuler des circuits électroniques et de microcontrôleurs des ESP32
+- [MATLAB](https://www.mathworks.com/products/matlab.html) pour résoudre des nombres complexes et des calculs matriciels
 - [Fusion 360](https://www.autodesk.com/fr/products/fusion-360/overview/) pour la modélisation CAO
 {: .bc-checks}
 </div>

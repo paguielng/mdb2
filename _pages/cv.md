@@ -27,18 +27,8 @@ Formation
 Expériences
 ======
 
-<div class="activite-bloc">
-<div class="activite-texte" markdown="1">
-**2022 · Stage de découverte de 3e à l'ISAE-SUPAERO**, Toulouse
-
-Stage d'observation en ingénierie aéronautique, en complément du BIA : FabLab, simulateurs de vol et aérodrome.
-</div>
-<figure class="activite-image">
-  <img src="{{ base_path }}/images/cv/isae-supaero-campus.png" alt="Campus de l'ISAE-SUPAERO à Toulouse">
-  <figcaption>Campus de l'ISAE-SUPAERO, Toulouse</figcaption>
-</figure>
-</div>
-
+* **2022** · Stage de découverte de 3e, ISAE-SUPAERO, Toulouse
+  * Stage d'observation en ingénierie aéronautique, en complément du BIA : FabLab, simulateurs de vol et aérodrome.
 * **oct. 2023 – présent** · Club Espace, [Le FabRiquet](https://fabriquet.fab-manager.com/#!/), Ramonville-Saint-Agne
   * Conception et impression 3D (Fusion 360) pour un projet de mini-fusée mené avec un club de passionnés.
   * Campagnes de lancements.
@@ -47,7 +37,6 @@ Stage d'observation en ingénierie aéronautique, en complément du BIA : FabLab
 * **oct. 2026** · Lauréat 2026 du prix STEM for All, Paris
   * Prix Thales Solidarity, en partenariat avec l'Académie des technologies, pour encourager les vocations STEM d'étudiants méritants de 1re année.
 
-{% include style-blocs.html %}
 
 Compétences
 ======
