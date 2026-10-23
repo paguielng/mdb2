@@ -51,6 +51,11 @@ Ce site présente mes travaux universitaires et mes projets personnels. Vous tro
   {% include feature_row %}
 </section>
 
+<section class="bc-section bc-sponsorship">
+  <h2 class="bc-section__title">Soutenir mon travail</h2>
+  <iframe src="https://github.com/sponsors/paguielng/card" title="Sponsor paguielng" height="225" width="600" style="border: 0; max-width: 100%;"></iframe>
+</section>
+
 <section class="bc-band">
 <div class="bc-band__inner" markdown="1">
 ## Mes outils
