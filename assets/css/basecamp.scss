@@ -674,7 +674,6 @@ html, body { overflow-x: clip; }
 .page__content .activite-photos.trois figure { flex-basis: 180px; }
 .page__content .activite-photos.trois figcaption { text-align: center; }
 
-<<<<<<< HEAD
 /* ---------- Page Contact ---------- */
 
 .page__content .contact-cartes {
@@ -720,7 +719,8 @@ html, body { overflow-x: clip; }
   .page__content a.contact-carte { flex-direction: row; align-items: center; gap: 0 10px; flex-wrap: wrap; padding: 10px 14px; line-height: 1.4; }
   .page__content a.contact-carte i { margin: 0; }
   .contact-carte__lien { flex-basis: 100%; padding-left: 30px; }
-=======
+}
+
 /* Vignettes des cartes du portfolio */
 .archive img.vignette {
   display: block;
@@ -729,5 +729,4 @@ html, body { overflow-x: clip; }
   max-height: 180px;
   margin-top: .5em;
   border-radius: 8px;
->>>>>>> origin/master
 }
