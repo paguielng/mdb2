@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2026-11-06-projet-ecg
 excerpt: "Cette page présente le prototype d'une carte qui mesure, amplifie et filtre le signal électrique du cœur."
 date: 2026-11-06
-membres: 'Paguiel Nganji, Anis Bensenouci'
+membres: 'Paguiel Nganji, <a href="https://fr.linkedin.com/in/bensenouci-anis">Anis Bensenouci</a>'
 paperurl: 'https://paguielng.github.io/mdb2/files/cahier-de-labo-ecg.pdf'
 citation: 'SAE Électronique ECG, BUT GEII 2e année, 2026-2027, avec Anis Bensenouci.'
 ---
