@@ -24,10 +24,10 @@ citation: 'SAE Électronique ECG, BUT GEII 2e année, 2026-2027, avec Anis Bense
 <div class="activite-texte" markdown="1">
 À chaque battement, le cœur produit sur la peau une tension d'environ 1 mV, noyée dans les parasites, surtout celui du secteur à 50 Hz. Le cahier des charges demandait le prototype d'une carte qui amplifie ce signal 500 à 1 500 fois et le filtre pour l'afficher sur un oscilloscope.
 
-Avec Anis, nous avons pris en charge la carte d'alimentation, le **filtre passe-bas** (150 Hz) et le **filtre réjecteur 50 Hz**. L'autre binôme a réalisé l'amplification.
+Avec Anis, nous avons pris en charge le **filtre passe-bas** (150 Hz) et le **filtre réjecteur 50 Hz**. L'autre binôme a réalisé l'amplification.
 </div>
 <figure class="activite-image">
-  <img src="{{ base_path }}/images/projets/ecg/cartes-assemblees.jpg" alt="Cartes de l'ECG assemblées : alimentation, passe-bas et réjecteur">
+  <img src="{{ base_path }}/images/projets/ecg/cartes-assemblees.jpg" alt="Cartes de l'ECG assemblées avant le test">
   <figcaption>Nos cartes assemblées avant le test</figcaption>
 </figure>
 </div>
