@@ -34,7 +34,7 @@ Expériences
   * Campagnes de lancements.
 * **févr. 2025 – juin 2026** · Accompagnant éducatif bénévole, AFEV, Toulouse
   * Mentorat hebdomadaire (2 h) d'un élève de l'école primaire Alexandre Fourtanier ; engagement reconnu par l'Afev (« entière satisfaction »).
-* **oct. 2026** · Lauréat 2026 du prix STEM for All, Paris
+* **oct. 2026** · Lauréat 2026 du [prix STEM for All]({{ base_path }}/posts/2026/10/prix-stem-for-all/), Paris
   * Prix Thales Solidarity, en partenariat avec l'Académie des technologies, pour encourager les vocations STEM d'étudiants méritants de 1re année.
 
 
